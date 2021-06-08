@@ -1,0 +1,59 @@
+{
+	"information":
+	{
+		"misc": "data here has mostly been converted (CRS) and clipped (extent)"
+	},
+	"lesson_plan_data": 
+	{
+		"10": 
+		{
+			"layer_name": "ESRI Basemaps",
+			"data_type": "raster",
+			"container_type": "not applicable",
+			"author_name": "ESRI",
+			"source_name": "ESRI",
+			"source_link": "not applicable",
+			"license": "https://downloads2.esri.com/arcgisonline/docs/tou_summary.pdf"
+		},
+		"11": 
+		{
+			"layer_name": "lds-nz-primary-land-parcels-SHP",
+			"data_type": "polygon",
+			"container_type": "shapefile",
+			"author_name": "Land Information New Zealand",
+			"source_name": "LINZ Data Service",
+			"source_link": "https://data.linz.govt.nz/layer/50823-nz-primary-land-parcels/",
+			"license": "Creative Commons Attribution 4.0 International"
+		},
+		"12": 
+		{
+			"layer_name": "lds-nz-roads-road-section-geometry-FGDB",
+			"data_type": "mulitline",
+			"container_type": "geodatabase",
+			"author_name": "Land Information New Zealand",
+			"source_name": "LINZ Data Service",
+			"source_link": "https://data.linz.govt.nz/layer/53378-nz-roads-road-section-geometry/",
+			"license": "Creative Commons Attribution 4.0 International"
+		},
+		"20":
+		{
+			"layer_name": "GVP_Placemark_AucklandVolcanicField",
+			"data_type": "point",
+			"container_type": "kml",
+			"author_name": "Global Volcanism Program",
+			"source_name": "Global Volcanism Program",
+			"source_link": "https://volcano.si.edu/volcano.cfm?vn=241020",
+			"license": "Undefined, seemingly non-commercial (see: https://volcano.si.edu/gvp_termsofuse.cfm)"
+		},
+		"21":
+		{
+			"layer_name": "statsnz2018-census-individual-part-1-total-new-zealand-by-statistic-FGDB",
+			"data_type": "polygon",
+			"container_type": "geodatabase",
+			"author_name": "Statistics New Zealand",
+			"source_name": "Stats NZ Datafinder",
+			"source_link": "https://datafinder.stats.govt.nz/layer/104612-2018-census-individual-part-1-total-new-zealand-by-statistical-area-1/",
+			"license": "Creative Commons Attribution 4.0 International"
+		}
+	}
+}
