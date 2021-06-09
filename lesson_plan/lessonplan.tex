@@ -230,6 +230,7 @@ Click File $>$ Export Map and save the map as a .png with a dpi of 300. Figure \
 \subsection{FAQ/Common Mistakes}
 \begin{itemize}
     \item Make sure the `Spatial Analyst' extension is enabled. Toolbar $>$ Customize $>$ Extensions
+    \item Error 999999... Make sure you have no spaces in your file names. I suggest employing `snake case', where spaces are replaced with underscores \_
 \end{itemize}
 
 \pagebreak
@@ -241,6 +242,7 @@ In part 2, students will cover the basics of vector analysis. They will work wit
 The main parts to this lesson are the geoprocessing and familiarity with census data. This section will feature significantly less direct instruction and screenshots than lesson 1, as we can assume a basic understanding of the ArcMap user interface and cartographic convention.
 
 \subsection{Data Overview}
+This section will revolve around a dataset of volcanoes in Auckland. We will use census data (2018) to assess the amount of people within each level of danger. These danger levels will be arbitrarily created buffers around each volcano. A coastline dataset will be used to clip to the mainland, which will need to be converted to a polygon. \\
 
 \begin{table}[h]
 \begin{center}
@@ -258,10 +260,102 @@ The main parts to this lesson are the geoprocessing and familiarity with census 
     \hline
     2018 NZ Census data & 18MB & Statistics New Zealand & Geoprocessing, cartography & 21 \\
     \hline
+    NZ Coastlines & 5MB & LINZ & Geoprocessing, cartography & 22 \\
+    \hline
     \end{tabular}
 \end{center}
 \caption{\label{tb_data_2}Data used for Part 2}
 \end{table}
+
+\subsection{Instructions}
+As always, the first step is to download and load all the data required. Add a folder connection as with lesson 1, then load the volcanoes, census data and coastlines. While you're at it, add your basemap of choice. Your map frame should look something like Figure \ref{2_rawdata}.
+
+\begin{figure}[h]
+  \centering
+  \caption{Loading the data for lesson 2}
+  \includegraphics[width=230px]{images/part2/rawdata.PNG}
+  \label{2_rawdata}
+\end{figure}
+\pagebreak
+
+We have the locations of volcanoes within Auckland which we are going to use to create a map of volcanic risk for the region. We are going to create a few areas around the volcano, with the closer to the volcano the higher the level of risk. We can estimate the amount of people reside within these areas using basic spatial analysis tools. First things first, let's create the areas of danger around the volcanoes. To do this, we can use the buffer tool. The buffer tool (see Figure \ref{2_volcanobuffer}) takes an input feature and creates a specified area around it, saving this area as a new feature. You can access the buffer tool by selecting the `Search' window on the right of the main window, and searching for it. The same is true for any geoprocessing tool. Create a buffer of 1000m/1km around the volcanoes layer - I named mine `volcano\_buffer\_1000m.shp'.
+
+\begin{figure}[h]
+  \centering
+  \caption{Running the buffer tool}
+  \includegraphics[width=270px]{images/part2/volcano_buffer.PNG}
+  \label{2_volcanobuffer}
+\end{figure}
+
+The output layer of the buffer should look like Figure \ref{2_buffer_output}. We can see that there are lots of overlapping polygons, where the buffers intersect one another. This can be remedied with the dissolve tool, which aggregates features based on a specified attribute(s). We will be `dissolving' all of the attributes within one layer (the buffer output), so that the overlaps will combine. Run the dissolve tool with the buffer as the input. As can be seen on Figure \ref{2_dissolve}, this tool can be easily found with a quick search. Figure \ref{2_dissolved_output} shows the output, where polygons have been merged together so the overlaps no longer exist.
+
+\begin{figure}[h]
+  \centering
+  \caption{Running the dissolve tool}
+  \includegraphics[width=270px]{images/part2/volcano_buffer_dissolved.PNG}
+  \label{2_dissolve}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Output of the buffer tool on the volcano layer}
+    \includegraphics[width=190px]{images/part2/volcano_buffer_output.PNG}
+    \label{2_buffer_output}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Output of the dissolve tool on the buffered volcano layer}
+    \includegraphics[width=180px]{images/part2/volcano_buffer_dissolved_output.PNG}
+    \label{2_dissolved_output}
+  \end{minipage}
+\end{figure}
+
+Let's see how many people fall within this `high danger' area around the volcanoes of Auckland. There are a few ways to achieve this - something you will find in working with desktop GIS applications is that there are often several ways to tackle a problem. We will use the select by location tool. Go to Selection $>$ Select by Location... (see Figure \ref{2_selectbylocation}), setting the target layer as that of the census, with the dissolved buffer you just created as the source layer. The spatial selection method will be intersect. Click apply, it should look like Figure \ref{2_selection_all}. 
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Selecting by location}
+    \includegraphics[width=200px]{images/part2/selectbylocation.PNG}
+    \label{2_selectbylocation}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Selection from initial select by location}
+    \includegraphics[width=200px]{images/part2/selection_all.PNG}
+    \label{2_selection_all}
+  \end{minipage}
+\end{figure}
+
+That looks a little... off. The census units include offshore islands and the exclusive economic zone around NZ, which we don't really want to factor into our geoprocessing as no people will be full-time residents in these areas. Right-click on the census layer $>$ Open Attribute Table. Here we can see the tabular data that makes up this layer, with the `SHAPE' column containing the geometry, or where the row of data is represented spatially. 
+\pagebreak
+
+realise you need only mainland
+
+select by attributes
+
+export selection (add layer to map)
+
+select by location again
+
+open attribute table, view selection
+
+right click on 2018 pop, view statistics (should be around 280,000)
+
+do another buffer for 2.5 km and 10km (show how to do dissolve during buffer)
+
+feature to polygon tool on coastlines
+
+clip each buffer to nz shapefile
+
+make map
 
 \pagebreak
 \section{Part 3: Raster Analysis}

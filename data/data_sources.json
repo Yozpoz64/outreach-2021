@@ -39,7 +39,7 @@
 		{
 			"layer_name": "GVP_Placemark_AucklandVolcanicField",
 			"data_type": "point",
-			"container_type": "kml",
+			"container_type": "kml (converted to shapefile)",
 			"author_name": "Global Volcanism Program",
 			"source_name": "Global Volcanism Program",
 			"source_link": "https://volcano.si.edu/volcano.cfm?vn=241020",
@@ -53,6 +53,16 @@
 			"author_name": "Statistics New Zealand",
 			"source_name": "Stats NZ Datafinder",
 			"source_link": "https://datafinder.stats.govt.nz/layer/104612-2018-census-individual-part-1-total-new-zealand-by-statistical-area-1/",
+			"license": "Creative Commons Attribution 4.0 International"
+		},
+		"22": 
+		{
+			"layer_name": "nz-coastlines-topo-150k",
+			"data_type": "line",
+			"container_type": "shapefile",
+			"author_name": "National Topographic Office",
+			"source_name": "LINZ Data Service",
+			"source_link": "https://data.linz.govt.nz/layer/50258-nz-coastlines-topo-150k/",
 			"license": "Creative Commons Attribution 4.0 International"
 		}
 	}
