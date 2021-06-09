@@ -415,11 +415,44 @@ Time to work out other areas of danger. I have defined the areas of danger as 1k
   \end{minipage}
 \end{figure}
 
-feature to polygon tool on coastlines
+The issue with these buffers is that they extend beyond the coastline, where no people will be impacted. We want to `clip' the buffers to the coastline of NZ so that the map will make more sense for the viewer. This is what we have the coastlines dataset for. This dataset is a line that wraps around the extent of the NZ mainland. In order to crop our buffers to it easily, we need to convert the line into a polygon that covers all of NZ. Run the Feature to Polygon tool (see Figure \ref{2_featuretopolygon}) on the data, then run the Clip tool on each buffer, with the buffers as the input features and the polygon you just created as the clip features (see Figure \ref{2_clip}).
 
-clip each buffer to nz shapefile
+\begin{figure}[h]
+  \centering
+  \caption{Running the clip tool on the buffers}
+  \includegraphics[width=250px]{images/part2/clip.PNG}
+  \label{2_clip}
+\end{figure}
 
-make map
+We can see that the Clip tool has cropped the buffer to the `mainland' of NZ. Figure \ref{2_allbuffers_noclip} shows my buffers before the clip with Figure \ref{2_allbuffers_clipped} showing the buffers after the clip (note that I changed the colours after processing). That is the last of the geoprocessing done, you should now be ready to make your map.\pagebreak
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{1\textwidth}
+    \centering
+    \caption{Buffers before clipping to coastline}
+    \includegraphics[width=300px]{images/part2/allbuffers_noclip.PNG}
+    \label{2_allbuffers_noclip}
+  \end{minipage}
+
+  \vspace{0.5cm}
+
+  \begin{minipage}[b]{1\textwidth}
+    \centering
+    \caption{Buffers after clipping to coastline}
+    \includegraphics[width=300px]{images/part2/allbuffers_clipped.PNG}
+    \label{2_allbuffers_clipped}
+  \end{minipage}
+\end{figure}
+
+I added some labels to each of the buffers, you can choose whatever you'd like. Follow the same cartography steps as lesson 1. Figure \ref{2_map} shows my final map for lesson 2. \pagebreak
+
+\begin{figure}[h]
+  \centering
+  \caption{Example of a final map for lesson 2}
+  \fbox{\includegraphics[width=400px]{images/part2/sophie_part2.png}}
+  \label{2_map}
+\end{figure}
 
 \pagebreak
 \section{Part 3: Raster Analysis}
