@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  9 JUN 2021 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  9 JUN 2021 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,29 +853,120 @@ Overfull \hbox (11.94113pt too wide) in paragraph at lines 332--334
 
 [11 <./images/part2/volcano_buffer_output.PNG> <./images/part2/volcano_buffer_d
 issolved_output.PNG> <./images/part2/selectbylocation.PNG> <./images/part2/sele
-ction_all.PNG>] [12] [13] (./lessonplan.aux) ) 
+ction_all.PNG>]
+<images/part2/selectbyattributes.PNG, id=90, 405.01312pt x 396.7322pt>
+File: images/part2/selectbyattributes.PNG Graphic file (type png)
+<use images/part2/selectbyattributes.PNG>
+Package pdftex.def Info: images/part2/selectbyattributes.PNG  used on input lin
+e 347.
+(pdftex.def)             Requested size: 200.75073pt x 196.64636pt.
+
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 347--349
+ [][] 
+ []
+
+<images/part2/selection_mainland.PNG, id=91, 1097.60063pt x 756.57657pt>
+File: images/part2/selection_mainland.PNG Graphic file (type png)
+<use images/part2/selection_mainland.PNG>
+Package pdftex.def Info: images/part2/selection_mainland.PNG  used on input lin
+e 354.
+(pdftex.def)             Requested size: 200.75073pt x 138.37134pt.
+
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 354--356
+ [][] 
+ []
+
+<images/part2/saveselectedfeatures.PNG, id=92, 307.1475pt x 280.04625pt>
+File: images/part2/saveselectedfeatures.PNG Graphic file (type png)
+<use images/part2/saveselectedfeatures.PNG>
+Package pdftex.def Info: images/part2/saveselectedfeatures.PNG  used on input l
+ine 366.
+(pdftex.def)             Requested size: 200.75073pt x 183.04063pt.
+
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 366--368
+ [][] 
+ []
+
+<images/part2/selection_mainland_buffer.PNG, id=93, 1085.55562pt x 733.99219pt>
+
+File: images/part2/selection_mainland_buffer.PNG Graphic file (type png)
+<use images/part2/selection_mainland_buffer.PNG>
+Package pdftex.def Info: images/part2/selection_mainland_buffer.PNG  used on in
+put line 373.
+(pdftex.def)             Requested size: 200.75073pt x 135.73042pt.
+
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 373--375
+ [][] 
+ []
+
+[12 <./images/part2/selectbyattributes.PNG> <./images/part2/selection_mainland.
+PNG> <./images/part2/saveselectedfeatures.PNG> <./images/part2/selection_mainla
+nd_buffer.PNG>]
+<images/part2/viewattributetable.PNG, id=101, 860.46469pt x 1103.62312pt>
+File: images/part2/viewattributetable.PNG Graphic file (type png)
+<use images/part2/viewattributetable.PNG>
+Package pdftex.def Info: images/part2/viewattributetable.PNG  used on input lin
+e 386.
+(pdftex.def)             Requested size: 250.93842pt x 321.84438pt.
+
+Overfull \hbox (14.9228pt too wide) in paragraph at lines 386--388
+ [][] 
+ []
+
+<images/part2/viewattribute_statistics.PNG, id=102, 220.57407pt x 218.31563pt>
+File: images/part2/viewattribute_statistics.PNG Graphic file (type png)
+<use images/part2/viewattribute_statistics.PNG>
+Package pdftex.def Info: images/part2/viewattribute_statistics.PNG  used on inp
+ut line 393.
+(pdftex.def)             Requested size: 150.56305pt x 149.02562pt.
+[13 <./images/part2/viewattributetable.PNG> <./images/part2/viewattribute_stati
+stics.PNG>]
+<images/part2/volcano_buffer_2.PNG, id=109, 435.12563pt x 487.06969pt>
+File: images/part2/volcano_buffer_2.PNG Graphic file (type png)
+<use images/part2/volcano_buffer_2.PNG>
+Package pdftex.def Info: images/part2/volcano_buffer_2.PNG  used on input line 
+406.
+(pdftex.def)             Requested size: 150.56305pt x 168.53716pt.
+
+Overfull \hbox (8.95224pt too wide) in paragraph at lines 406--408
+ [][] 
+ []
+
+<images/part2/featuretopolygon.PNG, id=110, 685.05937pt x 484.81125pt>
+File: images/part2/featuretopolygon.PNG Graphic file (type png)
+<use images/part2/featuretopolygon.PNG>
+Package pdftex.def Info: images/part2/featuretopolygon.PNG  used on input line 
+413.
+(pdftex.def)             Requested size: 250.93842pt x 177.58713pt.
+
+Overfull \hbox (14.9228pt too wide) in paragraph at lines 413--415
+ [][] 
+ []
+
+[14 <./images/part2/volcano_buffer_2.PNG> <./images/part2/featuretopolygon.PNG>
+] [15] (./lessonplan.aux) ) 
 Here is how much of TeX's memory you used:
- 7234 strings out of 492615
- 104664 string characters out of 6131390
- 180639 words of memory out of 5000000
- 11011 multiletter control sequences out of 15000+600000
+ 7282 strings out of 492615
+ 106345 string characters out of 6131390
+ 180719 words of memory out of 5000000
+ 11051 multiletter control sequences out of 15000+600000
  12147 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,43p,1424b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips
-/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1000.pfb>
-Output written on lessonplan.pdf (13 pages, 9864432 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-
+ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1000.pfb>
+Output written on lessonplan.pdf (15 pages, 11219397 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

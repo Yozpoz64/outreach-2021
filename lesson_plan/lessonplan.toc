@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.1}Preamble}{9}% 
 \contentsline {subsection}{\numberline {3.2}Data Overview}{9}% 
 \contentsline {subsection}{\numberline {3.3}Instructions}{9}% 
-\contentsline {section}{\numberline {4}Part 3: Raster Analysis}{13}% 
-\contentsline {subsection}{\numberline {4.1}Preamble}{13}% 
-\contentsline {subsection}{\numberline {4.2}Data Overview}{13}% 
-\contentsline {section}{\numberline {5}Data Sources}{13}% 
+\contentsline {section}{\numberline {4}Part 3: Raster Analysis}{15}% 
+\contentsline {subsection}{\numberline {4.1}Preamble}{15}% 
+\contentsline {subsection}{\numberline {4.2}Data Overview}{15}% 
+\contentsline {section}{\numberline {5}Data Sources}{15}% 

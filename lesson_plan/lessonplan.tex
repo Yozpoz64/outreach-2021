@@ -337,19 +337,83 @@ Let's see how many people fall within this `high danger' area around the volcano
 That looks a little... off. The census units include offshore islands and the exclusive economic zone around NZ, which we don't really want to factor into our geoprocessing as no people will be full-time residents in these areas. Right-click on the census layer $>$ Open Attribute Table. Here we can see the tabular data that makes up this layer, with the `SHAPE' column containing the geometry, or where the row of data is represented spatially. 
 \pagebreak
 
-realise you need only mainland
+Following Figure \ref{2_selectbyattributes}, open up the Select by Attributes window. Here we can make a selection within the layer based on a condition(s). Our selection is going to be on the `LANDWATER\_NAME' column, and we want the value to equal to `Mainland'. Running this tool will select all rows that have the value `Mainland' on the specified column, so that we can isolate all areas that are on the mainland. Your map view should look like Figure  (note: make sure you have cleared selected features between steps)
 
-select by attributes
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Select by attributes}
+    \includegraphics[width=200px]{images/part2/selectbyattributes.PNG}
+    \label{2_selectbyattributes}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Selection from select by attributes = mainland}
+    \includegraphics[width=200px]{images/part2/selection_mainland.PNG}
+    \label{2_selection_mainland}
+  \end{minipage}
+\end{figure}
 
-export selection (add layer to map)
+Here we can see we have selected only the areas on land. We want to look at this data only, excluding everything that isn't mainland. Export this selection as its own layer by right-clicking on the census layer $>$ Data $>$ Export Data, leaving the settings as seen on Figure \ref{2_saveselected}. Run the same select by location as you did before, this time with the freshly exported layer as the target layer. The output should only include mainland layers (see Figure \ref{2_selection_mainland_buffer}).
 
-select by location again
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Saving the current census selection}
+    \includegraphics[width=200px]{images/part2/saveselectedfeatures.PNG}
+    \label{2_saveselected}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Selection by location of buffer intersecting with census mainland}
+    \includegraphics[width=200px]{images/part2/selection_mainland_buffer.PNG}
+    \label{2_selection_mainland_buffer}
+  \end{minipage}
+\end{figure}
+\pagebreak
 
-open attribute table, view selection
+Let's take a look at exactly what this selection is showing. Open up the attribute table of the exported mainland census layer that you have just created a selection on. You can switch the table view to only show selected rows with the small button on the bottom left (see Figure \ref{2_viewattributetable}). Right-click on the column titled `C18\_CURPop' which is the current population of each area as of the 2018 census, then select statistics as per Figure \ref{2_viewattribute_statistics}. You should get a sum of around 280,000. This is the population within our high danger zone area! I encourage you to work out the population that is affected by each of the buffer layers we create. Census population and other demographic information are extremely important to geospatial analysis, so this process is important to be familiar with.
 
-right click on 2018 pop, view statistics (should be around 280,000)
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Viewing selected records on the attribute table}
+    \includegraphics[width=250px]{images/part2/viewattributetable.PNG}
+    \label{2_viewattributetable}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Finding the statistics for the selected column}
+    \includegraphics[width=150px]{images/part2/viewattribute_statistics.PNG}
+    \label{2_viewattribute_statistics}
+  \end{minipage}
+\end{figure}
 
-do another buffer for 2.5 km and 10km (show how to do dissolve during buffer)
+Time to work out other areas of danger. I have defined the areas of danger as 1km, 2.5km and 10km for my analysis. For the purposes of this exercise, you can do whatever you like - I have defined mine arbitrarily. In reality, disaster risk maps like this would be developed with far more rigorous geoprocessing including road network access, underlying lithology, infrastructure pipelines etc. This lesson covers the basics of vector analysis, so we will not go further than these basic tools. All that being said, create two more buffers. Note that the step of manually running the dissolve tool is not neccessary. Figure \ref{2_volcanobuffer_2} shows how the buffer tool can automatically dissolve when running.
+\pagebreak
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.3\textwidth}
+    \centering
+    \caption{Buffer tool including a dissolve}
+    \includegraphics[width=150px]{images/part2/volcano_buffer_2.PNG}
+    \label{2_volcanobuffer_2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Feature to polygon tool on NZ coastline}
+    \includegraphics[width=250px]{images/part2/featuretopolygon.PNG}
+    \label{2_featuretopolygon}
+  \end{minipage}
+\end{figure}
 
 feature to polygon tool on coastlines
 
