@@ -461,7 +461,7 @@ This section will cover basic raster analysis. We will be creating a flood risk 
 
 \subsection{Data Overview}
 
-\section{Data Sources}
+\subsection{Data Sources}
 put a bit of a longer description on the data sourced here, and where to find more data in future
 
 DEM will be used for slope, elevation, 
@@ -492,5 +492,18 @@ distance to river channel?
 \end{center}
 \caption{\label{tb_data_1}Data used for Part 1}
 \end{table}
+
+\subsection{Instructions}
+
+load data
+
+rivers > add field > calculate geometry > length
+save rivers over 3000m long as major rivers, to be used as a criteria (greater distance away, the better)
+
+feature to polygon - coastlines to island extent
+
+clip rainfall raster (data management) to island extent
+
+
 
 \end{document}
