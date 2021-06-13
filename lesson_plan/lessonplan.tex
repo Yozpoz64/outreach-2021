@@ -459,6 +459,8 @@ I added some labels to each of the buffers, you can choose whatever you'd like. 
 \subsection{Preamble}
 This section will cover basic raster analysis. We will be creating a flood risk map using raster data and a GIS technique called multi-criteria evalution (MCE). MCE combines several criteria to create an output surface that accounts for each factor. MCE is ubiquitous in GIS, and is very important to understand. We will be using a basic normalisation technique to make things less complicated.
 
+talk about the exact criteria/constraints. pretend it was a council or something tasking us to do this
+
 \subsection{Data Overview}
 
 \subsection{Data Sources}
@@ -495,6 +497,7 @@ distance to river channel?
 
 \subsection{Instructions}
 
+
 load data
 
 rivers > add field > calculate geometry > length
@@ -503,6 +506,31 @@ save rivers over 3000m long as major rivers, to be used as a criteria (greater d
 feature to polygon - coastlines to island extent
 
 clip rainfall raster (data management) to island extent
+
+run slope tool on dem
+
+now have all data. mce factors:
+criteria
+-distance to road network (higher = worse)
+-distance to major rivers (higher = better)
+-distance to coastline (higher = better)
+-past rainfall (higher = worse)
+
+constraints
+-must be 5m above sea level
+-must be less than 35 degrees slope
+
+change environments to limit processing extent and raster analysis to the rakiura shapefile
+
+raster calculator to make slope layer boolean (35 degrees or less = 1, other = 0)
+
+raster calculator to make dem layer boolean (500m or less = 1, other = 0)
+
+run euclidean distance on roads, rivers, coastline
+
+raster calculator on distance surfaces to normalise them: (layer - min) / (max - min)
+
+now have all of the normalised surfaces, ready for mce!
 
 
 

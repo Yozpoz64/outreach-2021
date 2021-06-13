@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210614</CreaDate><CreaTime>10493300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20210614" Time="104933">RasterCalculator ""data\slope" &lt;= 30" C:\Users\samuel\Documents\GitRepos\outreach-2021\project\mydata\part3\slope_30</Process></lineage></DataProperties></Esri></metadata>

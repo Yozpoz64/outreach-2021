@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210614</CreaDate><CreaTime>10561300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20210614" Time="105613">RasterCalculator ""data\NZDEM_SoS_v1-0_29_Invercargill_gf.tif" &lt;= 500" C:\Users\samuel\Documents\GitRepos\outreach-2021\project\mydata\part3\dem_500orless</Process></lineage></DataProperties></Esri></metadata>
