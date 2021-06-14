@@ -505,8 +505,6 @@ save rivers over 3000m long as major rivers, to be used as a criteria (greater d
 
 feature to polygon - coastlines to island extent
 
-clip rainfall raster (data management) to island extent
-
 run slope tool on dem
 
 now have all data. mce factors:
@@ -528,9 +526,18 @@ raster calculator to make dem layer boolean (500m or less = 1, other = 0)
 
 run euclidean distance on roads, rivers, coastline
 
-raster calculator on distance surfaces to normalise them: (layer - min) / (max - min)
+introduce rainfall layer, which I have prepared
+-resampled
+-filtered with low-pass filter
+-clipped to island
 
-now have all of the normalised surfaces, ready for mce!
+raster calculator on distance surfaces (and rainfall) to normalise them: (layer - min) / (max - min)
+
+mce calculation
+
+make map (teach two data frames)
+
+
 
 
 

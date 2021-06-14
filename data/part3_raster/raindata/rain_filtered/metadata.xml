@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210614</CreaDate><CreaTime>13573300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Filter" Date="20210614" Time="135733">Filter distancesurfaces_normalised\rain_filtered C:\Users\samuel\Documents\GitRepos\outreach-2021\data\part3_raster\raindata\rain_filtered LOW DATA</Process></lineage></DataProperties></Esri></metadata>
