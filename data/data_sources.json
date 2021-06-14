@@ -64,6 +64,37 @@
 			"source_name": "LINZ Data Service",
 			"source_link": "https://data.linz.govt.nz/layer/50258-nz-coastlines-topo-150k/",
 			"license": "Creative Commons Attribution 4.0 International"
+		},
+		"30":
+		{
+			"layer_name": "NZDEM_SoS_v1-0_29_Invercargill_gf",
+			"data_type": "raster",
+			"container_type": "GeoTIFF",
+			"author_name": "University of Otago School of Surveying",
+			"source_name": "Koordinates",
+			"source_link": "https://koordinates.com/layer/3758-29-invercargill-15m-dem-nzsosdem-v10/",
+			"license": "Creative Commons Attribution-Share Alike 3.0"
+		},
+		"31":
+		{
+			"layer_name": "nz-river-centrelines-topo-150k",
+			"data_type": "multiline",
+			"container_type": "shapefile",
+			"author_name": "Land Information New Zealand",
+			"source_name": "Koordinates",
+			"source_link": "https://koordinates.com/from/data.linz.govt.nz/layer/50327/",
+			"license": "Creative Commons Attribution 4.0 International"
+		},
+		"32":
+		{
+			"layer_name": "rain_filtered",
+			"data_type": "raster",
+			"container_type": "GeoTIFF",
+			"author_name": "Ministry for the Environment",
+			"source_name": "Koordinates",
+			"source_link": "https://data.mfe.govt.nz/layer/89421-average-annual-rainfall-19722016/",
+			"license": "Creative Commons Attribution 4.0 International",
+			"notes": "modified from the original source here. cropped, interpolated and filtered"
 		}
 	}
 }

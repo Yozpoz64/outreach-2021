@@ -14,4 +14,4 @@
 \contentsline {section}{\numberline {4}Part 3: Raster Analysis}{17}% 
 \contentsline {subsection}{\numberline {4.1}Preamble}{17}% 
 \contentsline {subsection}{\numberline {4.2}Data Overview}{17}% 
-\contentsline {section}{\numberline {5}Data Sources}{17}% 
+\contentsline {subsection}{\numberline {4.3}Instructions}{18}% 

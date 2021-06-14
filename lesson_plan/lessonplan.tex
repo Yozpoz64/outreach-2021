@@ -457,20 +457,14 @@ I added some labels to each of the buffers, you can choose whatever you'd like. 
 \pagebreak
 \section{Part 3: Raster Analysis}
 \subsection{Preamble}
-This section will cover basic raster analysis. We will be creating a flood risk map using raster data and a GIS technique called multi-criteria evalution (MCE). MCE combines several criteria to create an output surface that accounts for each factor. MCE is ubiquitous in GIS, and is very important to understand. We will be using a basic normalisation technique to make things less complicated.
+This section will cover basic raster analysis. We will be creating a flood risk map using raster data and a GIS technique called multi-criteria evalution (MCE). MCE combines several criteria to create an output surface that accounts for each factor. MCE is ubiquitous in GIS, and is very important to understand. We will be using a basic normalisation technique to make things less complicated.\\
 
-talk about the exact criteria/constraints. pretend it was a council or something tasking us to do this
+Imagine you have been tasked by the Southland District Council to produce a flood risk map for Rakiura/Stewart Island. The factors that they want included in assessing flood risk are the distance to roads, distance away from the coastline, distance away from rivers, and past data on rain in the area. They have also specified that they will not consider areas that are higher than 300m in elevation and areas that have higher than a 35\textdegree{} slope. The flood risk will thus be based on a combination of extreme rainfall events, storm surge, and accessibility in case of emergency.
 
 \subsection{Data Overview}
+This section builds familiarity with raster data. Some of the source data will be in vector form, but we will create raster `distance surface' layers from them. A Digital Elevation Model (DEM) will be used for slope and elevation. This is a raster layer that has z values for height, often captured using LiDAR. There will be river, road and coastline layers, often using the same data sources as previous steps - note that the cropping I have applied will be different so please use the layers in the appropriate folder. \\
 
-\subsection{Data Sources}
-put a bit of a longer description on the data sourced here, and where to find more data in future
-
-DEM will be used for slope, elevation, 
-
-cover type?
-
-distance to river channel?
+I have provided a rainfall layer. This layer was processed from that listed below. I did some clipping and spatial interpolation, as well as low-pass filtering to make the layer more visually appealing and conform with the spatial resolution of the other layers. This geoprocessing is out of the scope of this lesson, although I will explain further in the instructions.
 
 \begin{table}[h]
 \begin{center}
@@ -484,16 +478,22 @@ distance to river channel?
     \hline
     ArcMap basemap & N/A & ESRI (within ArcMap) & Cartography (context) & 10 \\
     \hline
-    DEM? &  &  & 30 \\
+    Invercargill DEM & 40MB & University of Otago School of Surveying & Geoprocessing & 30 \\
     \hline
-    another &  &  & 31 \\
+    NZ coastlines (crop) & 1MB & LINZ & Geoprocessing & 22 \\
     \hline
-    another & & & 32 \\
+    NZ road section geometry (crop) & 1MB & LINZ & Geoprocessing & 12 \\
+    \hline
+    NZ river centrelines & 1MB & LINZ & Geoprocessing & 31 \\
+    \hline
+    Average annual rainfall & 1MB & MfE & Geoprocessing & 32 \\
     \hline
     \end{tabular}
 \end{center}
-\caption{\label{tb_data_1}Data used for Part 1}
+\caption{\label{tb_data_3}Data used for Part 3}
 \end{table}
+
+\pagebreak
 
 \subsection{Instructions}
 
