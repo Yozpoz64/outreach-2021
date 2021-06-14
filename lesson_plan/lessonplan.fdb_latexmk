@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623641139 "lessonplan.tex" "lessonplan.pdf" "lessonplan" 1623641145
+["pdflatex"] 1623642992 "lessonplan.tex" "lessonplan.pdf" "lessonplan" 1623642998
   "/etc/texmf/web2c/texmf.cnf" 1613335259 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1480098696 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -126,11 +126,15 @@
   "images/part2/volcano_buffer_dissolved.PNG" 1623119962 65212 6ba2802c2110989a0adfe564618f6f00 ""
   "images/part2/volcano_buffer_dissolved_output.PNG" 1623120022 118384 98e04eeb41b6c077dbd970c461f5411d ""
   "images/part2/volcano_buffer_output.PNG" 1623119854 133473 4219d82c8a31fee9ea8f8122067ba6c7 ""
-  "lessonplan.aux" 1623641145 8528 45498635094b798530bffedd22e75fe3 ""
-  "lessonplan.tex" 1623641132 33234 f4581b4628fab37537356121b136c7db ""
-  "lessonplan.toc" 1623641145 1131 33e806c5f94367d036d4d7570524e70b ""
+  "images/part3/createpyramids.PNG" 1623638892 12435 477acea9d46580520df38f437028a215 ""
+  "images/part3/environments.PNG" 1623638892 31010 1df5b2438d13dc8c7d69f4e643ea5046 ""
+  "images/part3/newattribute.PNG" 1623638892 23495 b757dffe2c78be59b98d49d67e7a8c4c ""
+  "images/part3/selection_majorrivers.PNG" 1623638892 650051 2f845a94134c258c71a1139f06903418 ""
+  "lessonplan.aux" 1623642998 9246 2272ce9f785cf529b0c49e3a8162975a ""
+  "lessonplan.tex" 1623642992 37169 026967226d25817a555874572b496593 ""
+  "lessonplan.toc" 1623642998 1131 33e806c5f94367d036d4d7570524e70b ""
   (generated)
   "lessonplan.toc"
   "lessonplan.log"
-  "lessonplan.aux"
   "lessonplan.pdf"
+  "lessonplan.aux"

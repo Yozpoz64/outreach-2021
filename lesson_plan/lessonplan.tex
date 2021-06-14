@@ -496,7 +496,49 @@ I have provided a rainfall layer. This layer was processed from that listed belo
 \pagebreak
 
 \subsection{Instructions}
+Load up all of the data listed. Adding the DEM might cause a `Create Pyramids' dialogue to pop-up (see Figure \ref{3_pyramids}). Rivers are the first set of data we will work with. This dataset is immense, and is far too fine-grained for our use case. We will define `major rivers' as rivers that are 3km or longer. To create a major rivers layer, right click on rivers $>$ Open Attribute Table then select the top left menu icon $>$ Add Field. Set this field to be of type `Double' with the name `length' (see Figure \ref{3_newattribute}). Right-click on the newly-created length column then select Calculate Geometry $>$ length. 
 
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Creating pyramids for processing DEMs}
+    \includegraphics[width=180px]{images/part3/createpyramids.PNG}
+    \label{3_pyramids}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Creating a new field within the attribute table}
+    \includegraphics[width=180px]{images/part3/newattribute.PNG}
+    \label{3_newattribute}
+  \end{minipage}
+\end{figure}
+
+Next, we can use Select By Attributes, as seen in Figure \ref{3_majorrivers}, to select only rivers that have this new length field as greater than 3000 (m, depending on your Calculate Geometry settings). Here we are selecting all records of the table, under the condition that the `length' column is greater than 3000. Export your selection as a new layer under the name `major\_rivers', then add it to the map.
+
+\begin{figure}[h]
+  \centering
+  \caption{Select by attributes - major rivers}
+  \includegraphics[width=300px]{images/part3/selection_majorrivers.PNG}
+  \label{3_majorrivers}
+\end{figure}
+
+Use the Feature to Polygon tool on the coastlines as with lesson 2. This polygon will be important as we will use it to limit all geoprocessing to its extent. We do this to ensure we are not wasting computation on processing things that we are not interested in, as well as making our lives easier as it essentially automatically clips all of the geoprocessing for us. Right click on Geoprocessing $>$ Environments, changing the Processing Extent and Raster Analysis settings as to Figure \ref{3_environments} - this will limit our analysis to the polygon created (Rakiura).
+\pagebreak
+
+\begin{figure}[h]
+  \centering
+  \caption{Environment settings}
+  \includegraphics[width=200px]{images/part3/environments.PNG}
+  \label{3_environments}
+\end{figure}
+
+We have now pre-processed all the data, where we can now produce distance rasters of each criterion in the MCE. Distance rasters are raster layers that have a value relating to the distance to a defined feature. We will produce distance rasters for each criterion (eg. rivers) so that we can include the values in our map algebra. Map algebra involves a set of calculations, in this case, for each pixel of a raster grid. Each pixel will have multiple values for each criterion, and a final MCE raster calculation will combine them all to assess the competing criteria. This can be a lot to take in, and I have no doubt a quick search on the internet will yield a better explanation of the intricicies of raster analysis and MCEs. Completing the following steps will help, so do not be put off if you do not understand everything yet!\\
+
+All that being said, let's create some distance rasters. \\
+
+Normalisation is a fundamental step in the MCE process. Let's say we have our rainfall data, measured in mm/year, and coastline distance data, measured in m. Comparing these two within a formula directly is useless, as they have vastly different units. We want to ignore the values of the units, focussing on the relative strength or weakness of each factor that the units measure. To do this, we will normalise the data in a defined range of values (in our case, 0 to 1, where 0 is undesireable and 1 is desireable).
 
 load data
 
