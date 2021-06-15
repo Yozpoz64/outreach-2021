@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  14 JUN 2021 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  15 JUN 2021 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,34 +1022,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+<images/part3/slope.PNG, id=143, 686.565pt x 249.18094pt>
+File: images/part3/slope.PNG Graphic file (type png)
+<use images/part3/slope.PNG>
+Package pdftex.def Info: images/part3/slope.PNG  used on input line 542.
+(pdftex.def)             Requested size: 321.20117pt x 116.57513pt.
+[19 <./images/part3/environments.PNG> <./images/part3/slope.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
-[19 <./images/part3/environments.PNG>] [20] (./lessonplan.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+<images/part3/euclidean_coast.PNG, id=150, 687.31781pt x 368.1253pt>
+File: images/part3/euclidean_coast.PNG Graphic file (type png)
+<use images/part3/euclidean_coast.PNG>
+Package pdftex.def Info: images/part3/euclidean_coast.PNG  used on input line 5
+71.
+(pdftex.def)             Requested size: 250.93842pt x 134.40112pt.
+
+Overfull \hbox (62.12881pt too wide) in paragraph at lines 571--573
+ [][] 
+ []
+
+<images/part3/euclidean_road_output.PNG, id=151, 698.61pt x 735.49782pt>
+File: images/part3/euclidean_road_output.PNG Graphic file (type png)
+<use images/part3/euclidean_road_output.PNG>
+Package pdftex.def Info: images/part3/euclidean_road_output.PNG  used on input 
+line 578.
+(pdftex.def)             Requested size: 150.56305pt x 158.51051pt.
+[20 <./images/part3/euclidean_coast.PNG> <./images/part3/euclidean_road_output.
+PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+<images/part3/river_normalising.PNG, id=157, 586.44093pt x 319.1925pt>
+File: images/part3/river_normalising.PNG Graphic file (type png)
+<use images/part3/river_normalising.PNG>
+Package pdftex.def Info: images/part3/river_normalising.PNG  used on input line
+ 600.
+(pdftex.def)             Requested size: 230.86334pt x 125.65347pt.
+
+Overfull \hbox (42.05374pt too wide) in paragraph at lines 600--602
+ [][] 
+ []
+
+<images/part3/river_normalising_output.PNG, id=158, 645.91313pt x 722.7pt>
+File: images/part3/river_normalising_output.PNG Graphic file (type png)
+<use images/part3/river_normalising_output.PNG>
+Package pdftex.def Info: images/part3/river_normalising_output.PNG  used on inp
+ut line 607.
+(pdftex.def)             Requested size: 180.67566pt x 202.15611pt.
+[21 <./images/part3/river_normalising.PNG> <./images/part3/river_normalising_ou
+tput.PNG>]
+<images/part3/road_normalising.PNG, id=165, 828.09375pt x 429.605pt>
+File: images/part3/road_normalising.PNG Graphic file (type png)
+<use images/part3/road_normalising.PNG>
+Package pdftex.def Info: images/part3/road_normalising.PNG  used on input line 
+620.
+(pdftex.def)             Requested size: 230.86334pt x 119.7707pt.
+
+Overfull \hbox (42.05374pt too wide) in paragraph at lines 620--622
+ [][] 
+ []
+
+<images/part3/road_normalising_output.PNG, id=166, 660.96938pt x 725.71124pt>
+File: images/part3/road_normalising_output.PNG Graphic file (type png)
+<use images/part3/road_normalising_output.PNG>
+Package pdftex.def Info: images/part3/road_normalising_output.PNG  used on inpu
+t line 627.
+(pdftex.def)             Requested size: 180.67566pt x 198.36974pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
+
+ []
+
+<images/part3/slope_35degorless.PNG, id=167, 667.74469pt x 325.96782pt>
+File: images/part3/slope_35degorless.PNG Graphic file (type png)
+<use images/part3/slope_35degorless.PNG>
+Package pdftex.def Info: images/part3/slope_35degorless.PNG  used on input line
+ 640.
+(pdftex.def)             Requested size: 230.86334pt x 112.69775pt.
+<images/part3/slope_35degorless_output.PNG, id=168, 612.03656pt x 727.21687pt>
+File: images/part3/slope_35degorless_output.PNG Graphic file (type png)
+<use images/part3/slope_35degorless_output.PNG>
+Package pdftex.def Info: images/part3/slope_35degorless_output.PNG  used on inp
+ut line 647.
+(pdftex.def)             Requested size: 150.56305pt x 178.8965pt.
+[22 <./images/part3/road_normalising.png> <./images/part3/road_normalising_outp
+ut.PNG> <./images/part3/slope_35degorless.PNG> <./images/part3/slope_35degorles
+s_output.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
+
+ []
+
+<images/part3/dem_500morless.PNG, id=176, 435.12563pt x 318.43968pt>
+File: images/part3/dem_500morless.PNG Graphic file (type png)
+<use images/part3/dem_500morless.PNG>
+Package pdftex.def Info: images/part3/dem_500morless.PNG  used on input line 65
+9.
+(pdftex.def)             Requested size: 200.75073pt x 146.91647pt.
+<images/part3/dem_500morless_output.PNG, id=177, 673.76718pt x 749.04843pt>
+File: images/part3/dem_500morless_output.PNG Graphic file (type png)
+<use images/part3/dem_500morless_output.PNG>
+Package pdftex.def Info: images/part3/dem_500morless_output.PNG  used on input 
+line 666.
+(pdftex.def)             Requested size: 150.56305pt x 167.38567pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
+
+ []
+
+<images/part3/finalmce_calc.PNG, id=178, 581.92406pt x 286.06876pt>
+File: images/part3/finalmce_calc.PNG Graphic file (type png)
+<use images/part3/finalmce_calc.PNG>
+Package pdftex.def Info: images/part3/finalmce_calc.PNG  used on input line 682
+.
+(pdftex.def)             Requested size: 230.86334pt x 113.48698pt.
+<images/part3/finalmce_output.PNG, id=179, 835.62187pt x 999.735pt>
+File: images/part3/finalmce_output.PNG Graphic file (type png)
+<use images/part3/finalmce_output.PNG>
+Package pdftex.def Info: images/part3/finalmce_output.PNG  used on input line 6
+89.
+(pdftex.def)             Requested size: 130.48798pt x 156.11668pt.
+[23 <./images/part3/dem_500morless.PNG> <./images/part3/dem_500morless_output.P
+NG> <./images/part3/finalmce_calc.PNG> <./images/part3/finalmce_output.PNG>]
+[24]
+<images/part3/sophie_part3.png, id=190, 845.3181pt x 597.6729pt>
+File: images/part3/sophie_part3.png Graphic file (type png)
+<use images/part3/sophie_part3.png>
+Package pdftex.def Info: images/part3/sophie_part3.png  used on input line 701.
+
+(pdftex.def)             Requested size: 451.68915pt x 319.35513pt.
+ [25 <./images/part3/sophie_part3.png (PNG copy)>] (./lessonplan.aux) ) 
 Here is how much of TeX's memory you used:
- 7333 strings out of 492615
- 107778 string characters out of 6131390
- 181808 words of memory out of 5000000
- 11093 multiletter control sequences out of 15000+600000
+ 7417 strings out of 492615
+ 110495 string characters out of 6131390
+ 181948 words of memory out of 5000000
+ 11163 multiletter control sequences out of 15000+600000
  12147 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,43p,1424b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/tex
-mf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on lessonplan.pdf (20 pages, 20027123 bytes).
+ 42i,11n,43p,1424b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/sh
+are/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on lessonplan.pdf (25 pages, 21456105 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 229 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -534,51 +534,173 @@ Use the Feature to Polygon tool on the coastlines as with lesson 2. This polygon
   \label{3_environments}
 \end{figure}
 
-We have now pre-processed all the data, where we can now produce distance rasters of each criterion in the MCE. Distance rasters are raster layers that have a value relating to the distance to a defined feature. We will produce distance rasters for each criterion (eg. rivers) so that we can include the values in our map algebra. Map algebra involves a set of calculations, in this case, for each pixel of a raster grid. Each pixel will have multiple values for each criterion, and a final MCE raster calculation will combine them all to assess the competing criteria. This can be a lot to take in, and I have no doubt a quick search on the internet will yield a better explanation of the intricicies of raster analysis and MCEs. Completing the following steps will help, so do not be put off if you do not understand everything yet!\\
+The final pre-processing of data required is to create our slope layer. Slope is how steep a given piece of land is, which we can calculate from the DEM using the Slope tool (under Spatial Analyst). Figure \ref{3_slope} shows the running of the Slope tool, with the DEM as input. Make sure the output measurement is in degrees. \\
 
-All that being said, let's create some distance rasters. \\
+\begin{figure}[h]
+  \centering
+  \caption{Running the Slope tool}
+  \includegraphics[width=320px]{images/part3/slope.PNG}
+  \label{3_slope}
+\end{figure}
+\pagebreak
 
-Normalisation is a fundamental step in the MCE process. Let's say we have our rainfall data, measured in mm/year, and coastline distance data, measured in m. Comparing these two within a formula directly is useless, as they have vastly different units. We want to ignore the values of the units, focussing on the relative strength or weakness of each factor that the units measure. To do this, we will normalise the data in a defined range of values (in our case, 0 to 1, where 0 is undesireable and 1 is desireable).
+We have now pre-processed all the data. Before jumping in to the geoprocessing, let's have a think about what exactly we want to produce. We have been tasked with creating a flood risk map (see Section 4.1), and have been provided with the factors that need to be included. We can interpret these criteria as factors, where a risk can be higher or lower with different degrees of strength, and constraints, where risk is either high or low. We can work through the geoprocessing effectively by focussing on a single criterion at once, followed by combining them all as the MCE calculation. \\
 
-load data
+\textbf{Factors}
+\begin{itemize}
+  \item Distance to road network, where higher distance equates to higher risk
+  \item Distance to major rivers, where higher distance equates to lower risk
+  \item Distance to coastline, where higher distance equates to lower risk
+  \item Historical rainfall, where higher rainfall equates to higher risk
+\end{itemize}
+\textbf{Constraints}
+\begin{itemize}
+  \item Areas over 500m above sea level can be considered as no risk, regardless of other factors
+  \item Hillslopes with slopes steeper than 35\textdegree{} can be considered as no risk, regardless of other factors \\
+\end{itemize}
 
-rivers > add field > calculate geometry > length
-save rivers over 3000m long as major rivers, to be used as a criteria (greater distance away, the better)
+For factors, we can now produce distance rasters of each criterion in the MCE. Distance rasters are raster layers that have a value relating to the distance to a defined feature. We will produce distance rasters for each criterion (eg. rivers) so that we can include the values in our map algebra. Map algebra involves a set of calculations, in this case, for each pixel of a raster grid. Each pixel will have multiple values for each criterion, and a final MCE raster calculation will combine them all to assess the competing criteria. This can be a lot to take in, and I have no doubt a quick search on the internet will yield a better explanation of the intricicies of raster analysis and MCEs. Completing the following steps will help, so do not be put off if you do not understand everything yet! \\
 
-feature to polygon - coastlines to island extent
+All that being said, let's create some distance rasters. The Euclidean Distance tool performs an `as the crow flies' buffer of distance around a certain feature, outputting a distance raster where each pixel has a value that contains the euclidean distance to the certain feature. Run this tool on the coastline, major rivers and road network layers. The output distance raster should be restricted to the extent of Rakiura thanks to the Environments settings we changed earlier. Figure \ref{3_euclidean_coast} shows the Euclidean tool about to run on the coastline layer. Figure \ref{3_euclidean_road_output} shows the output distance raster for the road network layer.\\
 
-run slope tool on dem
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Running the Euclidean Distance tool}
+    \includegraphics[width=250px]{images/part3/euclidean_coast.PNG}
+    \label{3_euclidean_coast}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Distance raster for the road network layer}
+    \includegraphics[width=150px]{images/part3/euclidean_road_output.PNG}
+    \label{3_euclidean_road_output}
+  \end{minipage}
+\end{figure}
+\pagebreak
 
-now have all data. mce factors:
-criteria
--distance to road network (higher = worse)
--distance to major rivers (higher = better)
--distance to coastline (higher = better)
--past rainfall (higher = worse)
+Normalisation is a fundamental step in the MCE process. Let's say we have our rainfall data, measured in mm/year, and coastline distance data, measured in m. Comparing these two within a formula directly is useless, as they have vastly different units. We want to ignore the values of the units, focussing on the relative strength or weakness of each factor that the units measure. To do this, we will normalise the data in a defined range of values (in our case, 0 to 1, where 0 is undesirable and 1 is desirable). \\
 
-constraints
--must be 5m above sea level
--must be less than 35 degrees slope
+In the real world, normalisation would be achieved through complex algebraic methods. For the purposes of this lesson, we will employ the most straightforward method we can - using minimum and maximum raster values. Equation 1 outlines the formula we will use, where the minimum value will be transferred to a 0 and the maximum and 1 - applying throughout the range of values within a raster dataset.
 
-change environments to limit processing extent and raster analysis to the rakiura shapefile
+\begin{equation}
+  \text{normalised layer} = \frac{[layer] - min}{max - min}
+\end{equation}
+\vspace{0.2cm}
 
-raster calculator to make slope layer boolean (35 degrees or less = 1, other = 0)
+We can access map algebra using the Raster Calculator tool. Figure \ref{3_river_normalising} shows my raster calculation for the major rivers distance raster. We can see that the maximum value is 7196 (0 d.p.), with the minimum being 0. Using the normalisation technique of Equation 1, we can normalise the entire layer with the min and max values. Figure \ref{3_river_normalising_output} shows the output of this raster calculation, where we can see the new range of values are close to 0 and 1.
 
-raster calculator to make dem layer boolean (500m or less = 1, other = 0)
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalising the major rivers layer}
+    \includegraphics[width=230px]{images/part3/river_normalising.PNG}
+    \label{3_river_normalising}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Output of normalising the major rivers layer}
+    \includegraphics[width=180px]{images/part3/river_normalising_output.PNG}
+    \label{3_river_normalising_output}
+  \end{minipage}
+\end{figure}
 
-run euclidean distance on roads, rivers, coastline
+Normalise all of the distance surfaces using this method. As another example, Figure \ref{3_road_normalising} shows the equation for normalising the road network layer, with Figure \ref{3_road_normalising_output} showing the output. Note that you may need to perform a secondary calculation to reverse the polarity of the normalised distance surfaces. This is because for some layers, further away is more desirable (eg. rivers), while others further away is less desirable (eg. road network). This can be achieved by subtracting the normalised raster layer from 1 ($1-[\text{layer}]$), and can be applied at your discretion. 
+\pagebreak
 
-introduce rainfall layer, which I have prepared
--resampled
--filtered with low-pass filter
--clipped to island
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalising the road network layer}
+    \includegraphics[width=230px]{images/part3/road_normalising.PNG}
+    \label{3_road_normalising}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Output of normalising the road network layer}
+    \includegraphics[width=180px]{images/part3/road_normalising_output.PNG}
+    \label{3_road_normalising_output}
+  \end{minipage}
+\end{figure}
 
-raster calculator on distance surfaces (and rainfall) to normalise them: (layer - min) / (max - min)
+As mentioned in the Data Overview (see Section 4.2), I have provided a copy of the rainfall layer for your use in this lesson. The rainfall layer is a bit too much of a challenge to work with for this lesson, so I have completed the geoprocessing required for you to use. This data was much coarser than the other data, meaning that each measurement was represented by a much higher geographical area than other datasets (ie. there were only about 30 measurements for the entirety of the island). To account for this, I resampled the rainfall data, where the cell size was interpolated and made smaller. I then clipped it to the island and ran some low-pass filters on the data to reduce the strength of the boundaries between measurements. This reduces the `gridding' effect of using coarse data with finer data, while not impacting the trend of rainfall over the island. You can simply load this data into your project and it should be ready for the final MCE! \\
 
-mce calculation
+We have now completed all of the geoprocessing for the factors in the MCE. Now we must find the constraints. Constraints are a bit easier to create as they are boolean, meaning either one state (desirable) or another (non-desirable). First, we will create a layer with the raster calculator that returns a boolean for those that are less than or equal to 35\textdegree{} in slope. Figure \ref{3_slope_35} shows how this would be entered as a raster calculation, with Figure \ref{3_slope_35_output} showing the output. The areas in black are 0, or the slope is too high for flooding to occur, with the grey areas being flat enough for water to pool and flood.
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Raster calculation to create constraint layer for slope}
+    \includegraphics[width=230px]{images/part3/slope_35degorless.PNG}
+    \label{3_slope_35}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Boolean constraint layer for slope}
+    \includegraphics[width=150px]{images/part3/slope_35degorless_output.PNG}
+    \label{3_slope_35_output}
+  \end{minipage}
+\end{figure} \pagebreak
 
-make map (teach two data frames)
+The other constraint to consider is the elevation cutoff. The Southland District Council considers areas over 500m of elevation safe from flooding. This boolean raster can also be simply created using the Raster Calculator on the DEM. The equation can be seen on Figure \ref{3_elevation} with the corresponding output on Figure \ref{3_elevation_output}. \\
 
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Raster calculation to create constraint layer for elevation}
+    \includegraphics[width=200px]{images/part3/dem_500morless.PNG}
+    \label{3_elevation}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Boolean constraint layer for elevation}
+    \includegraphics[width=150px]{images/part3/dem_500morless_output.PNG}
+    \label{3_elevation_output}
+  \end{minipage}
+\end{figure}
+
+All of the geoprocessing for the layers included in the MCE calculation has been completed. We have normalised distance rasters for factors and boolean layers for constraints. A cool thing we can do in an MCE is assign weighting for each factor, meaning we can account for each factors relative importance in the MCE output. In our case, we can assign weightings based on how important a factor will be for increasing flood risk in an area. This would normally be provided by the stakeholder, but we can use whatever we like. I will assign 10\% to the distance to coasts (as we are primarily interested in floods, storm surge is not hugely influential), 20\% to rainfall, 40\% to roads (as lack of access is very important in extreme weather events), with the final 30\% to rivers. \\
+
+With these weightings, we can build the MCE calculation in the Raster Calculator. Each factor must be multiplied by its weighting then added to one another. These combined factors can be multiplied by the constraints, then the output will be the final MCE raster. I have written out formula in Equation 2, with Figure \ref{3_finalmce_calc} showing this formula in the raster calculator and Figure \ref{3_finalmce_output} showing the output. \\
+\begin{equation}
+  (0.1*[coasts]+0.2*[rain]+0.4*[roads]+0.3*[rivers])*[elevation]*[slope]
+\end{equation}
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Final MCE raster calculation}
+    \includegraphics[width=230px]{images/part3/finalmce_calc.PNG}
+    \label{3_finalmce_calc}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Final MCE raster}
+    \includegraphics[width=130px]{images/part3/finalmce_output.PNG}
+    \label{3_finalmce_output}
+  \end{minipage}
+\end{figure}
+\pagebreak
+
+Here I will provide screenshots of all of the criterion layers before the MCE calculation, just to make sure you are on the right track. Figure \ref{3_final} is my final map. I have used multiple data frames to show the geographic area to the viewer more clearly. 
+
+\pagebreak
+\begin{figure}
+  \centering
+  \caption{Lesson 3 Final Map}
+  \fbox{\includegraphics[width=450px]{images/part3/sophie_part3.png}}
+  \label{3_final}
+\end{figure}
 
 
 
