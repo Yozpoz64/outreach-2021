@@ -47,7 +47,7 @@ These lessons are hopefully crafted in such a way that attendees should leave wi
 \begin{enumerate}
 	\item Understand common GIS file types and ways analysts use to manage said files
 	\item The ability to produce digital maps, obeying standard mapping conventions
-	\item Use simple geoprocessing tools to analyze an area
+	\item Use simple geoprocessing tools to analyse an area
 	\item Understand the basics of Vector and Raster data
 	\item Have the ability to deliver such a lesson to intermediate/high school students
 \end{enumerate}
@@ -395,7 +395,7 @@ Let's take a look at exactly what this selection is showing. Open up the attribu
   \end{minipage}
 \end{figure}
 
-Time to work out other areas of danger. I have defined the areas of danger as 1km, 2.5km and 10km for my analysis. For the purposes of this exercise, you can do whatever you like - I have defined mine arbitrarily. In reality, disaster risk maps like this would be developed with far more rigorous geoprocessing including road network access, underlying lithology, infrastructure pipelines etc. This lesson covers the basics of vector analysis, so we will not go further than these basic tools. All that being said, create two more buffers. Note that the step of manually running the dissolve tool is not neccessary. Figure \ref{2_volcanobuffer_2} shows how the buffer tool can automatically dissolve when running.
+Time to work out other areas of danger. I have defined the areas of danger as 1km, 2.5km and 10km for my analysis. For the purposes of this exercise, you can do whatever you like - I have defined mine arbitrarily. In reality, disaster risk maps like this would be developed with far more rigorous geoprocessing including road network access, underlying lithology, infrastructure pipelines etc. This lesson covers the basics of vector analysis, so we will not go further than these basic tools. All that being said, create two more buffers. Note that the step of manually running the dissolve tool is not necessary. Figure \ref{2_volcanobuffer_2} shows how the buffer tool can automatically dissolve when running.
 \pagebreak
 
 \begin{figure}[h]
@@ -457,7 +457,7 @@ I added some labels to each of the buffers, you can choose whatever you'd like. 
 \pagebreak
 \section{Part 3: Raster Analysis}
 \subsection{Preamble}
-This section will cover basic raster analysis. We will be creating a flood risk map using raster data and a GIS technique called multi-criteria evalution (MCE). MCE combines several criteria to create an output surface that accounts for each factor. MCE is ubiquitous in GIS, and is very important to understand. We will be using a basic normalisation technique to make things less complicated.\\
+This section will cover basic raster analysis. We will be creating a flood risk map using raster data and a GIS technique called multi-criteria evaluation (MCE). MCE combines several criteria to create an output surface that accounts for each factor. MCE is ubiquitous in GIS, and is very important to understand. We will be using a basic normalisation technique to make things less complicated.\\
 
 Imagine you have been tasked by the Southland District Council to produce a flood risk map for Rakiura/Stewart Island. The factors that they want included in assessing flood risk are the distance to roads, distance away from the coastline, distance away from rivers, and past data on rain in the area. They have also specified that they will not consider areas that are higher than 300m in elevation and areas that have higher than a 35\textdegree{} slope. The flood risk will thus be based on a combination of extreme rainfall events, storm surge, and accessibility in case of emergency.
 
@@ -559,7 +559,7 @@ We have now pre-processed all the data. Before jumping in to the geoprocessing, 
   \item Hillslopes with slopes steeper than 35\textdegree{} can be considered as no risk, regardless of other factors \\
 \end{itemize}
 
-For factors, we can now produce distance rasters of each criterion in the MCE. Distance rasters are raster layers that have a value relating to the distance to a defined feature. We will produce distance rasters for each criterion (eg. rivers) so that we can include the values in our map algebra. Map algebra involves a set of calculations, in this case, for each pixel of a raster grid. Each pixel will have multiple values for each criterion, and a final MCE raster calculation will combine them all to assess the competing criteria. This can be a lot to take in, and I have no doubt a quick search on the internet will yield a better explanation of the intricicies of raster analysis and MCEs. Completing the following steps will help, so do not be put off if you do not understand everything yet! \\
+For factors, we can now produce distance rasters of each criterion in the MCE. Distance rasters are raster layers that have a value relating to the distance to a defined feature. We will produce distance rasters for each criterion (eg. rivers) so that we can include the values in our map algebra. Map algebra involves a set of calculations, in this case, for each pixel of a raster grid. Each pixel will have multiple values for each criterion, and a final MCE raster calculation will combine them all to assess the competing criteria. This can be a lot to take in, and I have no doubt a quick search on the internet will yield a better explanation of the intricacies of raster analysis and MCEs. Completing the following steps will help, so do not be put off if you do not understand everything yet! \\
 
 All that being said, let's create some distance rasters. The Euclidean Distance tool performs an `as the crow flies' buffer of distance around a certain feature, outputting a distance raster where each pixel has a value that contains the euclidean distance to the certain feature. Run this tool on the coastline, major rivers and road network layers. The output distance raster should be restricted to the extent of Rakiura thanks to the Environments settings we changed earlier. Figure \ref{3_euclidean_coast} shows the Euclidean tool about to run on the coastline layer. Figure \ref{3_euclidean_road_output} shows the output distance raster for the road network layer.\\
 
