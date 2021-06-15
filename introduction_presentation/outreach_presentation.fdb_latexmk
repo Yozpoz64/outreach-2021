@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623299146 "outreach_presentation.tex" "outreach_presentation.pdf" "outreach_presentation" 1623299196
+["pdflatex"] 1623722889 "outreach_presentation.tex" "outreach_presentation.pdf" "outreach_presentation" 1623722923
   "/etc/texmf/web2c/texmf.cnf" 1613335259 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -185,15 +185,15 @@
   "images/standard_example.PNG" 1623299070 94469 9d9b446f7f44e58d1fd7b6ce3944101b ""
   "images/standard_example_2.PNG" 1623299070 37809 e9542dcd3706582a491d8576ed1556a4 ""
   "images/wila.PNG" 1623299070 224748 a29ce0dbfce9172e90fefe5b72c5c643 ""
-  "outreach_presentation.aux" 1623299147 1715 940846ddb8236babe409b31a191ab45c ""
-  "outreach_presentation.nav" 1623299147 747 0e276c0940a342ad38699132b0e9aa8d ""
-  "outreach_presentation.out" 1623299146 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "outreach_presentation.tex" 1623299196 2644 b912c6424c96890dd284e8f259316781 ""
+  "outreach_presentation.aux" 1623722889 1715 940846ddb8236babe409b31a191ab45c ""
+  "outreach_presentation.nav" 1623722889 747 0e276c0940a342ad38699132b0e9aa8d ""
+  "outreach_presentation.out" 1623722889 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "outreach_presentation.tex" 1623722922 2819 34a04e4a62495f57ebf7e0a63b0bb566 ""
   (generated)
-  "outreach_presentation.aux"
   "outreach_presentation.toc"
-  "outreach_presentation.log"
-  "outreach_presentation.out"
   "outreach_presentation.pdf"
   "outreach_presentation.snm"
+  "outreach_presentation.aux"
+  "outreach_presentation.log"
+  "outreach_presentation.out"
   "outreach_presentation.nav"
