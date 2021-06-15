@@ -151,7 +151,17 @@ OUTPUT lessonplan.toc
 OUTPUT lessonplan.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT images/toolbar.PNG
+INPUT ./images/toolbar.PNG
+INPUT ./images/toolbar.PNG
+INPUT images/zoomtolayer.PNG
+INPUT ./images/zoomtolayer.PNG
+INPUT ./images/zoomtolayer.PNG
+INPUT images/rearranginglayer.PNG
+INPUT ./images/rearranginglayer.PNG
+INPUT ./images/rearranginglayer.PNG
 INPUT images/part1/folderconnection.PNG
 INPUT ./images/part1/folderconnection.PNG
 INPUT ./images/part1/folderconnection.PNG
@@ -197,7 +207,6 @@ INPUT ./images/part1/layout_scalebar.PNG
 INPUT images/part1/sophie_part1.png
 INPUT ./images/part1/sophie_part1.png
 INPUT ./images/part1/sophie_part1.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT images/part2/rawdata.PNG
 INPUT ./images/part2/rawdata.PNG
 INPUT ./images/part2/rawdata.PNG

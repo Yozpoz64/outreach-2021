@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1623717629 "lessonplan.tex" "lessonplan.pdf" "lessonplan" 1623717647
+["pdflatex"] 1623797667 "lessonplan.tex" "lessonplan.pdf" "lessonplan" 1623797674
   "/etc/texmf/web2c/texmf.cnf" 1613335259 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm" 1480098696 1536 b3387106d9afecbfe14bde2de6eadf47 ""
@@ -153,11 +153,14 @@
   "images/part3/slope_35degorless.PNG" 1623638892 54800 0a4b47a7cb54180299d0081328f2fbe6 ""
   "images/part3/slope_35degorless_output.PNG" 1623638892 38744 1c7e26ec069dcc5eedcd106bc6806f3c ""
   "images/part3/sophie_part3.png" 1623638893 1000848 bda23429d532c50ef7faf83caea4566e ""
-  "lessonplan.aux" 1623717636 12810 cc24301795256f2ae3e2e39188e351a9 ""
-  "lessonplan.tex" 1623717647 48499 843ef8a517adbc0b101edacd4514a624 ""
-  "lessonplan.toc" 1623717636 1188 c73c3e4de89a5ce786f6cdd0c3776a13 ""
+  "images/rearranginglayer.PNG" 1623796780 3764 9c799f7f684b0b6a693ee843a509529e ""
+  "images/toolbar.PNG" 1623796089 76995 ce4a6986da0bc130cd0c49c21b034b80 ""
+  "images/zoomtolayer.PNG" 1623796780 16072 f62cbb1169a7a6216297d8bfbb161328 ""
+  "lessonplan.aux" 1623797674 13412 c19457e9466fccb43ecd230f73dd41f0 ""
+  "lessonplan.tex" 1623797667 50618 7ef6420e29a1e070bbc08e3893684ce0 ""
+  "lessonplan.toc" 1623797674 1262 9216ef22dfb7d8cdcb00529ab36436d6 ""
   (generated)
   "lessonplan.pdf"
   "lessonplan.toc"
-  "lessonplan.log"
   "lessonplan.aux"
+  "lessonplan.log"

@@ -51,6 +51,46 @@ These lessons are hopefully crafted in such a way that attendees should leave wi
 	\item Understand the basics of Vector and Raster data
 	\item Have the ability to deliver such a lesson to intermediate/high school students
 \end{enumerate}
+
+\section{FAQ/Common Mistakes}
+\begin{itemize}
+    \item Make sure the `Spatial Analyst' extension is enabled. Toolbar $>$ Customize $>$ Extensions
+    \item Error 999999... Make sure you have no spaces in your file names. I suggest employing `snake case', where spaces are replaced with underscores \_
+    \item Remember to save exported data as a shapefile - I don't like shapefiles, but they are easy to work with and our analysis covers them
+    \item Remember to clear selections between analysis. If you don't, subsequent selections will include what has previously be selected, often interfering with geoprocessing
+\end{itemize}
+\pagebreak
+
+\section{Basic Navigation Tips for Arcmap}
+Before jumping in, it will save a lot of frustration if you can understand the basic navigation tools that ArcMap offers. By navigation I mean moving around the map/data frame, selecting objects and rearranging layers. Figure \ref{toolbar} shows an annotated screenshot of the basic navigation/selection toolbar in ArcMap. 
+
+\begin{figure}[h]
+  \centering
+  \caption{Basic ArcMap navigation tools}
+  \includegraphics[width=450px]{images/toolbar.PNG}
+  \label{toolbar}
+\end{figure}
+
+These tools are important to memorize, as there is nothing more annoying than not being able to effectively view the data you are working with. Another important feature to note is `Zoom to Layer', where you can right-click on a given layer and zoom to its extent (see Figure \ref{zoomtolayer}). Often you will complete some geoprocessing, or change CRS, and get zoomed to somewhere thinking the data has vanished. Zooming to layer is really useful here.
+
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.5\textwidth}
+    \centering
+    \caption{Zoom to layer}
+    \includegraphics[width=220px]{images/zoomtolayer.PNG}
+    \label{zoomtolayer}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Rearranging data layers}
+    \includegraphics[width=200px]{images/rearranginglayer.PNG}
+    \label{rearranging}
+  \end{minipage}
+\end{figure}
+
+Finally, you can rearrange layers by holding left-click on them and dragging and dropping. The higher up the layer in the hierarchy the more visible it will be - the order of the table of contents is the order that layers will be `drawn'. Figure \ref{rearranging} shows how a black line indicates the position of a layer once you let go of the left mouse button.
 \pagebreak
 
 \section{Part 1: Introduction to a GISystem and Cartography}
@@ -226,13 +266,6 @@ Click File $>$ Export Map and save the map as a .png with a dpi of 300. Figure \
     \includegraphics[width=500px]{images/part1/sophie_part1.png}
     \label{example_part1}
 \end{figure}
-
-\subsection{FAQ/Common Mistakes}
-\begin{itemize}
-    \item Make sure the `Spatial Analyst' extension is enabled. Toolbar $>$ Customize $>$ Extensions
-    \item Error 999999... Make sure you have no spaces in your file names. I suggest employing `snake case', where spaces are replaced with underscores \_
-\end{itemize}
-
 \pagebreak
 
 \section{Part 2: Vector Analysis}
@@ -749,15 +782,5 @@ Thank you very much for reading! I hope that these lessons serve as a good found
 
 Thanks again, \\
 Sophie Kolston (she/her)
-
-add to intro
-
--zoom to layer
--basic arcmap tools
--dragging layers to rearrange
--clear selection
--reminder in part 1 to save as shapefile
-
-
 
 \end{document}

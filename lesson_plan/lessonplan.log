@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  15 JUN 2021 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.2.15)  16 JUN 2021 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,610 +609,635 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+<images/toolbar.PNG, id=16, 854.44218pt x 414.04688pt>
+File: images/toolbar.PNG Graphic file (type png)
+<use images/toolbar.PNG>
+Package pdftex.def Info: images/toolbar.PNG  used on input line 70.
+(pdftex.def)             Requested size: 451.68915pt x 218.87518pt.
+<images/zoomtolayer.PNG, id=18, 352.31625pt x 198.7425pt>
+File: images/zoomtolayer.PNG Graphic file (type png)
+<use images/zoomtolayer.PNG>
+Package pdftex.def Info: images/zoomtolayer.PNG  used on input line 81.
+(pdftex.def)             Requested size: 220.8258pt x 124.56856pt.
+<images/rearranginglayer.PNG, id=19, 380.92313pt x 83.5622pt>
+File: images/rearranginglayer.PNG Graphic file (type png)
+<use images/rearranginglayer.PNG>
+Package pdftex.def Info: images/rearranginglayer.PNG  used on input line 88.
+(pdftex.def)             Requested size: 200.75073pt x 44.03783pt.
+
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 88--90
+ [][] 
+ []
+
+[3 <./images/toolbar.PNG> <./images/zoomtolayer.PNG> <./images/rearranginglayer
+.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Overfull \hbox (2.93365pt too wide) in paragraph at lines 67--82
+Overfull \hbox (2.93365pt too wide) in paragraph at lines 107--122
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-<images/part1/folderconnection.PNG, id=14, 639.13782pt x 297.36093pt>
+<images/part1/folderconnection.PNG, id=28, 639.13782pt x 297.36093pt>
 File: images/part1/folderconnection.PNG Graphic file (type png)
 <use images/part1/folderconnection.PNG>
 Package pdftex.def Info: images/part1/folderconnection.PNG  used on input line 
-92.
+132.
 (pdftex.def)             Requested size: 301.1261pt x 140.09995pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-[3 <./images/part1/folderconnection.PNG>]
-<images/part1/rawdata.PNG, id=23, 1915.9078pt x 1176.64594pt>
+[4 <./images/part1/folderconnection.PNG>]
+<images/part1/rawdata.PNG, id=33, 1915.9078pt x 1176.64594pt>
 File: images/part1/rawdata.PNG Graphic file (type png)
 <use images/part1/rawdata.PNG>
-Package pdftex.def Info: images/part1/rawdata.PNG  used on input line 103.
+Package pdftex.def Info: images/part1/rawdata.PNG  used on input line 143.
 (pdftex.def)             Requested size: 250.93842pt x 154.10045pt.
 
-Overfull \hbox (62.12881pt too wide) in paragraph at lines 103--105
+Overfull \hbox (62.12881pt too wide) in paragraph at lines 143--145
  [][] 
  []
 
-<images/part1/newshp_catalog.PNG, id=24, 474.27188pt x 575.90157pt>
+<images/part1/newshp_catalog.PNG, id=34, 474.27188pt x 575.90157pt>
 File: images/part1/newshp_catalog.PNG Graphic file (type png)
 <use images/part1/newshp_catalog.PNG>
-Package pdftex.def Info: images/part1/newshp_catalog.PNG  used on input line 11
+Package pdftex.def Info: images/part1/newshp_catalog.PNG  used on input line 15
 0.
 (pdftex.def)             Requested size: 150.56305pt x 182.82474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-<images/part1/newshp_featurename.PNG, id=25, 264.99pt x 322.95656pt>
+<images/part1/newshp_featurename.PNG, id=35, 264.99pt x 322.95656pt>
 File: images/part1/newshp_featurename.PNG Graphic file (type png)
 <use images/part1/newshp_featurename.PNG>
 Package pdftex.def Info: images/part1/newshp_featurename.PNG  used on input lin
-e 122.
+e 162.
 (pdftex.def)             Requested size: 130.48798pt x 159.03363pt.
-<images/part1/newshp_startediting.PNG, id=26, 350.81062pt x 365.86688pt>
+<images/part1/newshp_startediting.PNG, id=36, 350.81062pt x 365.86688pt>
 File: images/part1/newshp_startediting.PNG Graphic file (type png)
 <use images/part1/newshp_startediting.PNG>
 Package pdftex.def Info: images/part1/newshp_startediting.PNG  used on input li
-ne 129.
+ne 169.
 (pdftex.def)             Requested size: 150.56305pt x 157.02939pt.
-[4 <./images/part1/rawdata.PNG> <./images/part1/newshp_catalog.PNG> <./images/p
+[5 <./images/part1/rawdata.PNG> <./images/part1/newshp_catalog.PNG> <./images/p
 art1/newshp_featurename.PNG> <./images/part1/newshp_startediting.PNG>]
-<images/part1/newshp_createfeatures.PNG, id=34, 460.72125pt x 248.42813pt>
+<images/part1/newshp_createfeatures.PNG, id=44, 460.72125pt x 248.42813pt>
 File: images/part1/newshp_createfeatures.PNG Graphic file (type png)
 <use images/part1/newshp_createfeatures.PNG>
 Package pdftex.def Info: images/part1/newshp_createfeatures.PNG  used on input 
-line 139.
+line 179.
 (pdftex.def)             Requested size: 250.93842pt x 135.30914pt.
 
-Overfull \hbox (62.12881pt too wide) in paragraph at lines 139--141
+Overfull \hbox (62.12881pt too wide) in paragraph at lines 179--181
  [][] 
  []
 
-<images/part1/newshp_drawingpolygon.PNG, id=35, 568.37344pt x 656.4525pt>
+<images/part1/newshp_drawingpolygon.PNG, id=45, 568.37344pt x 656.4525pt>
 File: images/part1/newshp_drawingpolygon.PNG Graphic file (type png)
 <use images/part1/newshp_drawingpolygon.PNG>
 Package pdftex.def Info: images/part1/newshp_drawingpolygon.PNG  used on input 
-line 146.
+line 186.
 (pdftex.def)             Requested size: 150.56305pt x 173.89899pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-<images/part1/symbology.png, id=36, 840.13875pt x 446.41782pt>
+<images/part1/symbology.png, id=46, 840.13875pt x 446.41782pt>
 File: images/part1/symbology.png Graphic file (type png)
 <use images/part1/symbology.png>
-Package pdftex.def Info: images/part1/symbology.png  used on input line 156.
+Package pdftex.def Info: images/part1/symbology.png  used on input line 196.
 (pdftex.def)             Requested size: 301.1261pt x 160.00867pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-[5 <./images/part1/newshp_createfeatures.PNG> <./images/part1/newshp_drawingpol
+[6 <./images/part1/newshp_createfeatures.PNG> <./images/part1/newshp_drawingpol
 ygon.PNG> <./images/part1/symbology.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-<images/part1/symbology_uniquevalues.PNG, id=43, 499.8675pt x 416.30531pt>
+<images/part1/symbology_uniquevalues.PNG, id=53, 499.8675pt x 416.30531pt>
 File: images/part1/symbology_uniquevalues.PNG Graphic file (type png)
 <use images/part1/symbology_uniquevalues.PNG>
 Package pdftex.def Info: images/part1/symbology_uniquevalues.PNG  used on input
- line 172.
+ line 212.
 (pdftex.def)             Requested size: 200.75073pt x 167.1925pt.
-<images/part1/transparency.PNG, id=44, 298.86656pt x 166.37157pt>
+<images/part1/transparency.PNG, id=54, 298.86656pt x 166.37157pt>
 File: images/part1/transparency.PNG Graphic file (type png)
 <use images/part1/transparency.PNG>
-Package pdftex.def Info: images/part1/transparency.PNG  used on input line 179.
+Package pdftex.def Info: images/part1/transparency.PNG  used on input line 219.
 
 (pdftex.def)             Requested size: 150.56305pt x 83.81514pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-<images/part1/layoutview.png, id=45, 1064.47687pt x 566.86781pt>
+<images/part1/layoutview.png, id=55, 1064.47687pt x 566.86781pt>
 File: images/part1/layoutview.png Graphic file (type png)
 <use images/part1/layoutview.png>
-Package pdftex.def Info: images/part1/layoutview.png  used on input line 189.
+Package pdftex.def Info: images/part1/layoutview.png  used on input line 229.
 (pdftex.def)             Requested size: 401.50146pt x 213.81181pt.
-[6 <./images/part1/symbology_uniquevalues.PNG> <./images/part1/transparency.PNG
+[7 <./images/part1/symbology_uniquevalues.PNG> <./images/part1/transparency.PNG
 > <./images/part1/layoutview.PNG>]
-<images/part1/layout_changesize.PNG, id=52, 429.10312pt x 380.92313pt>
+<images/part1/layout_changesize.PNG, id=63, 429.10312pt x 380.92313pt>
 File: images/part1/layout_changesize.PNG Graphic file (type png)
 <use images/part1/layout_changesize.PNG>
 Package pdftex.def Info: images/part1/layout_changesize.PNG  used on input line
- 198.
+ 238.
 (pdftex.def)             Requested size: 200.75073pt x 178.20853pt.
-<images/part1/layout_legend.PNG, id=53, 430.60875pt x 322.20375pt>
+<images/part1/layout_legend.PNG, id=64, 430.60875pt x 322.20375pt>
 File: images/part1/layout_legend.PNG Graphic file (type png)
 <use images/part1/layout_legend.PNG>
-Package pdftex.def Info: images/part1/layout_legend.PNG  used on input line 205
+Package pdftex.def Info: images/part1/layout_legend.PNG  used on input line 245
 .
 (pdftex.def)             Requested size: 180.67566pt x 135.1919pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-<images/part1/layout_scalebar.PNG, id=54, 620.3175pt x 368.87813pt>
+<images/part1/layout_scalebar.PNG, id=65, 620.3175pt x 368.87813pt>
 File: images/part1/layout_scalebar.PNG Graphic file (type png)
 <use images/part1/layout_scalebar.PNG>
 Package pdftex.def Info: images/part1/layout_scalebar.PNG  used on input line 2
-15.
+55.
 (pdftex.def)             Requested size: 250.93842pt x 149.22032pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-<images/part1/sophie_part1.png, id=55, 845.3181pt x 597.6729pt>
+<images/part1/sophie_part1.png, id=66, 845.3181pt x 597.6729pt>
 File: images/part1/sophie_part1.png Graphic file (type png)
 <use images/part1/sophie_part1.png>
-Package pdftex.def Info: images/part1/sophie_part1.png  used on input line 226.
+Package pdftex.def Info: images/part1/sophie_part1.png  used on input line 266.
 
 (pdftex.def)             Requested size: 501.87683pt x 354.84004pt.
 
-Overfull \hbox (29.8456pt too wide) in paragraph at lines 226--228
+Overfull \hbox (29.8456pt too wide) in paragraph at lines 266--268
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/part1/layout_changesize.PNG> <./images/part1/layout_legend.PNG> <.
-/images/part1/layout_scalebar.PNG>] [8 <./images/part1/sophie_part1.png (PNG co
-py)>]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[8 <./images/part1/layout_changesize.PNG> <./images/part1/layout_legend.PNG> <.
+/images/part1/layout_scalebar.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Overfull \hbox (2.93365pt too wide) in paragraph at lines 249--266
+Overfull \hbox (2.93365pt too wide) in paragraph at lines 282--299
  [] 
  []
 
-<images/part2/rawdata.PNG, id=67, 1169.11781pt x 766.36313pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./images/part1/sophie_part1.png (PNG copy)>]
+<images/part2/rawdata.PNG, id=76, 1169.11781pt x 766.36313pt>
 File: images/part2/rawdata.PNG Graphic file (type png)
 <use images/part2/rawdata.PNG>
-Package pdftex.def Info: images/part2/rawdata.PNG  used on input line 276.
+Package pdftex.def Info: images/part2/rawdata.PNG  used on input line 309.
 (pdftex.def)             Requested size: 230.86334pt x 151.32875pt.
-[9 <./images/part2/rawdata.PNG>]
-<images/part2/volcano_buffer.PNG, id=72, 695.59875pt x 506.6428pt>
+ [10 <./images/part2/rawdata.PNG>]
+<images/part2/volcano_buffer.PNG, id=81, 695.59875pt x 506.6428pt>
 File: images/part2/volcano_buffer.PNG Graphic file (type png)
 <use images/part2/volcano_buffer.PNG>
-Package pdftex.def Info: images/part2/volcano_buffer.PNG  used on input line 28
-6.
+Package pdftex.def Info: images/part2/volcano_buffer.PNG  used on input line 31
+9.
 (pdftex.def)             Requested size: 271.01349pt x 197.3889pt.
-<images/part2/volcano_buffer_dissolved.PNG, id=73, 692.5875pt x 501.37312pt>
+<images/part2/volcano_buffer_dissolved.PNG, id=82, 692.5875pt x 501.37312pt>
 File: images/part2/volcano_buffer_dissolved.PNG Graphic file (type png)
 <use images/part2/volcano_buffer_dissolved.PNG>
 Package pdftex.def Info: images/part2/volcano_buffer_dissolved.PNG  used on inp
-ut line 295.
+ut line 328.
 (pdftex.def)             Requested size: 271.01349pt x 196.19266pt.
- [10 <./images/part2/volcano_buffer.PNG> <./images/part2/volcano_buffer_dissolv
+ [11 <./images/part2/volcano_buffer.PNG> <./images/part2/volcano_buffer_dissolv
 ed.PNG>]
-<images/part2/volcano_buffer_output.PNG, id=79, 674.52pt x 748.29562pt>
+<images/part2/volcano_buffer_output.PNG, id=88, 674.52pt x 748.29562pt>
 File: images/part2/volcano_buffer_output.PNG Graphic file (type png)
 <use images/part2/volcano_buffer_output.PNG>
 Package pdftex.def Info: images/part2/volcano_buffer_output.PNG  used on input 
-line 306.
+line 339.
 (pdftex.def)             Requested size: 190.7132pt x 211.56517pt.
 
-Overfull \hbox (1.9036pt too wide) in paragraph at lines 306--308
+Overfull \hbox (1.9036pt too wide) in paragraph at lines 339--341
  [][] 
  []
 
-<images/part2/volcano_buffer_dissolved_output.PNG, id=80, 597.73312pt x 752.059
+<images/part2/volcano_buffer_dissolved_output.PNG, id=89, 597.73312pt x 752.059
 7pt>
 File: images/part2/volcano_buffer_dissolved_output.PNG Graphic file (type png)
 <use images/part2/volcano_buffer_dissolved_output.PNG>
 Package pdftex.def Info: images/part2/volcano_buffer_dissolved_output.PNG  used
- on input line 313.
+ on input line 346.
 (pdftex.def)             Requested size: 180.67566pt x 227.31802pt.
-<images/part2/selectbylocation.PNG, id=81, 481.04718pt x 428.35031pt>
+<images/part2/selectbylocation.PNG, id=90, 481.04718pt x 428.35031pt>
 File: images/part2/selectbylocation.PNG Graphic file (type png)
 <use images/part2/selectbylocation.PNG>
 Package pdftex.def Info: images/part2/selectbylocation.PNG  used on input line 
-325.
+358.
 (pdftex.def)             Requested size: 200.75073pt x 178.76208pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 325--327
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 358--360
  [][] 
  []
 
-<images/part2/selection_all.PNG, id=82, 1109.64563pt x 782.17218pt>
+<images/part2/selection_all.PNG, id=91, 1109.64563pt x 782.17218pt>
 File: images/part2/selection_all.PNG Graphic file (type png)
 <use images/part2/selection_all.PNG>
-Package pdftex.def Info: images/part2/selection_all.PNG  used on input line 332
+Package pdftex.def Info: images/part2/selection_all.PNG  used on input line 365
 .
 (pdftex.def)             Requested size: 200.75073pt x 141.501pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 332--334
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 365--367
  [][] 
  []
 
-[11 <./images/part2/volcano_buffer_output.PNG> <./images/part2/volcano_buffer_d
+[12 <./images/part2/volcano_buffer_output.PNG> <./images/part2/volcano_buffer_d
 issolved_output.PNG> <./images/part2/selectbylocation.PNG> <./images/part2/sele
 ction_all.PNG>]
-<images/part2/selectbyattributes.PNG, id=90, 405.01312pt x 396.7322pt>
+<images/part2/selectbyattributes.PNG, id=99, 405.01312pt x 396.7322pt>
 File: images/part2/selectbyattributes.PNG Graphic file (type png)
 <use images/part2/selectbyattributes.PNG>
 Package pdftex.def Info: images/part2/selectbyattributes.PNG  used on input lin
-e 347.
+e 380.
 (pdftex.def)             Requested size: 200.75073pt x 196.64636pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 347--349
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 380--382
  [][] 
  []
 
-<images/part2/selection_mainland.PNG, id=91, 1097.60063pt x 756.57657pt>
+<images/part2/selection_mainland.PNG, id=100, 1097.60063pt x 756.57657pt>
 File: images/part2/selection_mainland.PNG Graphic file (type png)
 <use images/part2/selection_mainland.PNG>
 Package pdftex.def Info: images/part2/selection_mainland.PNG  used on input lin
-e 354.
+e 387.
 (pdftex.def)             Requested size: 200.75073pt x 138.37134pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 354--356
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 387--389
  [][] 
  []
 
-<images/part2/saveselectedfeatures.PNG, id=92, 307.1475pt x 280.04625pt>
+<images/part2/saveselectedfeatures.PNG, id=101, 307.1475pt x 280.04625pt>
 File: images/part2/saveselectedfeatures.PNG Graphic file (type png)
 <use images/part2/saveselectedfeatures.PNG>
 Package pdftex.def Info: images/part2/saveselectedfeatures.PNG  used on input l
-ine 366.
+ine 399.
 (pdftex.def)             Requested size: 200.75073pt x 183.04063pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 366--368
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 399--401
  [][] 
  []
 
-<images/part2/selection_mainland_buffer.PNG, id=93, 1085.55562pt x 733.99219pt>
-
+<images/part2/selection_mainland_buffer.PNG, id=102, 1085.55562pt x 733.99219pt
+>
 File: images/part2/selection_mainland_buffer.PNG Graphic file (type png)
 <use images/part2/selection_mainland_buffer.PNG>
 Package pdftex.def Info: images/part2/selection_mainland_buffer.PNG  used on in
-put line 373.
+put line 406.
 (pdftex.def)             Requested size: 200.75073pt x 135.73042pt.
 
-Overfull \hbox (11.94113pt too wide) in paragraph at lines 373--375
+Overfull \hbox (11.94113pt too wide) in paragraph at lines 406--408
  [][] 
  []
 
-[12 <./images/part2/selectbyattributes.PNG> <./images/part2/selection_mainland.
+[13 <./images/part2/selectbyattributes.PNG> <./images/part2/selection_mainland.
 PNG> <./images/part2/saveselectedfeatures.PNG> <./images/part2/selection_mainla
 nd_buffer.PNG>]
-<images/part2/viewattributetable.PNG, id=101, 860.46469pt x 1103.62312pt>
+<images/part2/viewattributetable.PNG, id=111, 860.46469pt x 1103.62312pt>
 File: images/part2/viewattributetable.PNG Graphic file (type png)
 <use images/part2/viewattributetable.PNG>
 Package pdftex.def Info: images/part2/viewattributetable.PNG  used on input lin
-e 386.
+e 419.
 (pdftex.def)             Requested size: 250.93842pt x 321.84438pt.
 
-Overfull \hbox (14.9228pt too wide) in paragraph at lines 386--388
+Overfull \hbox (14.9228pt too wide) in paragraph at lines 419--421
  [][] 
  []
 
-<images/part2/viewattribute_statistics.PNG, id=102, 220.57407pt x 218.31563pt>
+<images/part2/viewattribute_statistics.PNG, id=112, 220.57407pt x 218.31563pt>
 File: images/part2/viewattribute_statistics.PNG Graphic file (type png)
 <use images/part2/viewattribute_statistics.PNG>
 Package pdftex.def Info: images/part2/viewattribute_statistics.PNG  used on inp
-ut line 393.
+ut line 426.
 (pdftex.def)             Requested size: 150.56305pt x 149.02562pt.
-[13 <./images/part2/viewattributetable.PNG> <./images/part2/viewattribute_stati
+[14 <./images/part2/viewattributetable.PNG> <./images/part2/viewattribute_stati
 stics.PNG>]
-<images/part2/volcano_buffer_2.PNG, id=109, 435.12563pt x 487.06969pt>
+<images/part2/volcano_buffer_2.PNG, id=118, 435.12563pt x 487.06969pt>
 File: images/part2/volcano_buffer_2.PNG Graphic file (type png)
 <use images/part2/volcano_buffer_2.PNG>
 Package pdftex.def Info: images/part2/volcano_buffer_2.PNG  used on input line 
-406.
+439.
 (pdftex.def)             Requested size: 150.56305pt x 168.53716pt.
 
-Overfull \hbox (8.95224pt too wide) in paragraph at lines 406--408
+Overfull \hbox (8.95224pt too wide) in paragraph at lines 439--441
  [][] 
  []
 
-<images/part2/featuretopolygon.PNG, id=110, 685.05937pt x 484.81125pt>
+<images/part2/featuretopolygon.PNG, id=119, 685.05937pt x 484.81125pt>
 File: images/part2/featuretopolygon.PNG Graphic file (type png)
 <use images/part2/featuretopolygon.PNG>
 Package pdftex.def Info: images/part2/featuretopolygon.PNG  used on input line 
-413.
+446.
 (pdftex.def)             Requested size: 250.93842pt x 177.58713pt.
 
-Overfull \hbox (14.9228pt too wide) in paragraph at lines 413--415
+Overfull \hbox (14.9228pt too wide) in paragraph at lines 446--448
  [][] 
  []
 
-<images/part2/clip.PNG, id=111, 668.4975pt x 489.32813pt>
+<images/part2/clip.PNG, id=120, 668.4975pt x 489.32813pt>
 File: images/part2/clip.PNG Graphic file (type png)
 <use images/part2/clip.PNG>
-Package pdftex.def Info: images/part2/clip.PNG  used on input line 423.
+Package pdftex.def Info: images/part2/clip.PNG  used on input line 456.
 (pdftex.def)             Requested size: 250.93842pt x 183.68425pt.
-[14 <./images/part2/volcano_buffer_2.PNG> <./images/part2/featuretopolygon.PNG>
+[15 <./images/part2/volcano_buffer_2.PNG> <./images/part2/featuretopolygon.PNG>
  <./images/part2/clip.PNG>]
-<images/part2/allbuffers_noclip.PNG, id=118, 1023.07219pt x 729.47531pt>
+<images/part2/allbuffers_noclip.PNG, id=127, 1023.07219pt x 729.47531pt>
 File: images/part2/allbuffers_noclip.PNG Graphic file (type png)
 <use images/part2/allbuffers_noclip.PNG>
 Package pdftex.def Info: images/part2/allbuffers_noclip.PNG  used on input line
- 434.
+ 467.
 (pdftex.def)             Requested size: 301.1261pt x 214.70358pt.
-<images/part2/allbuffers_clipped.PNG, id=119, 1087.06125pt x 698.61pt>
+<images/part2/allbuffers_clipped.PNG, id=128, 1087.06125pt x 698.61pt>
 File: images/part2/allbuffers_clipped.PNG Graphic file (type png)
 <use images/part2/allbuffers_clipped.PNG>
 Package pdftex.def Info: images/part2/allbuffers_clipped.PNG  used on input lin
-e 443.
+e 476.
 (pdftex.def)             Requested size: 301.1261pt x 193.52011pt.
- [15 <./images/part2/allbuffers_noclip.PNG> <./images/part2/allbuffers_clipped.
+ [16 <./images/part2/allbuffers_noclip.PNG> <./images/part2/allbuffers_clipped.
 PNG>]
-<images/part2/sophie_part2.png, id=125, 606.3453pt x 582.4962pt>
+<images/part2/sophie_part2.png, id=134, 606.3453pt x 582.4962pt>
 File: images/part2/sophie_part2.png Graphic file (type png)
 <use images/part2/sophie_part2.png>
-Package pdftex.def Info: images/part2/sophie_part2.png  used on input line 453.
+Package pdftex.def Info: images/part2/sophie_part2.png  used on input line 486.
 
 (pdftex.def)             Requested size: 401.50146pt x 385.70192pt.
- [16 <./images/part2/sophie_part2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+ [17 <./images/part2/sophie_part2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 481--481
+Underfull \hbox (badness 6477) in paragraph at lines 514--514
 []|\OT1/cmr/m/n/10 University of Otago
  []
 
 
-Overfull \hbox (2.93365pt too wide) in paragraph at lines 471--492
+Overfull \hbox (2.93365pt too wide) in paragraph at lines 504--525
  [] 
  []
 
-[17]
-<images/part3/createpyramids.PNG, id=133, 309.40594pt x 234.1247pt>
+[18]
+<images/part3/createpyramids.PNG, id=142, 309.40594pt x 234.1247pt>
 File: images/part3/createpyramids.PNG Graphic file (type png)
 <use images/part3/createpyramids.PNG>
-Package pdftex.def Info: images/part3/createpyramids.PNG  used on input line 50
-6.
+Package pdftex.def Info: images/part3/createpyramids.PNG  used on input line 53
+9.
 (pdftex.def)             Requested size: 180.67566pt x 136.72125pt.
-<images/part3/newattribute.PNG, id=134, 328.97906pt x 246.9225pt>
+<images/part3/newattribute.PNG, id=143, 328.97906pt x 246.9225pt>
 File: images/part3/newattribute.PNG Graphic file (type png)
 <use images/part3/newattribute.PNG>
-Package pdftex.def Info: images/part3/newattribute.PNG  used on input line 513.
+Package pdftex.def Info: images/part3/newattribute.PNG  used on input line 546.
 
 (pdftex.def)             Requested size: 180.67566pt x 135.61186pt.
-<images/part3/selection_majorrivers.PNG, id=135, 1527.45656pt x 1058.45438pt>
+<images/part3/selection_majorrivers.PNG, id=144, 1527.45656pt x 1058.45438pt>
 File: images/part3/selection_majorrivers.PNG Graphic file (type png)
 <use images/part3/selection_majorrivers.PNG>
 Package pdftex.def Info: images/part3/selection_majorrivers.PNG  used on input 
-line 523.
+line 556.
 (pdftex.def)             Requested size: 301.1261pt x 208.66695pt.
- [18 <./images/part3/createpyramids.PNG> <./images/part3/newattribute.PNG> <./i
+ [19 <./images/part3/createpyramids.PNG> <./images/part3/newattribute.PNG> <./i
 mages/part3/selection_majorrivers.PNG>]
-<images/part3/environments.PNG, id=142, 441.14813pt x 654.19406pt>
+<images/part3/environments.PNG, id=152, 441.14813pt x 654.19406pt>
 File: images/part3/environments.PNG Graphic file (type png)
 <use images/part3/environments.PNG>
-Package pdftex.def Info: images/part3/environments.PNG  used on input line 533.
+Package pdftex.def Info: images/part3/environments.PNG  used on input line 566.
 
 (pdftex.def)             Requested size: 200.75073pt x 297.69868pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-<images/part3/slope.PNG, id=143, 686.565pt x 249.18094pt>
+<images/part3/slope.PNG, id=153, 686.565pt x 249.18094pt>
 File: images/part3/slope.PNG Graphic file (type png)
 <use images/part3/slope.PNG>
-Package pdftex.def Info: images/part3/slope.PNG  used on input line 542.
+Package pdftex.def Info: images/part3/slope.PNG  used on input line 575.
 (pdftex.def)             Requested size: 321.20117pt x 116.57513pt.
-[19 <./images/part3/environments.PNG> <./images/part3/slope.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+[20 <./images/part3/environments.PNG> <./images/part3/slope.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
-<images/part3/euclidean_coast.PNG, id=150, 687.31781pt x 368.1253pt>
+<images/part3/euclidean_coast.PNG, id=159, 687.31781pt x 368.1253pt>
 File: images/part3/euclidean_coast.PNG Graphic file (type png)
 <use images/part3/euclidean_coast.PNG>
-Package pdftex.def Info: images/part3/euclidean_coast.PNG  used on input line 5
-71.
+Package pdftex.def Info: images/part3/euclidean_coast.PNG  used on input line 6
+04.
 (pdftex.def)             Requested size: 250.93842pt x 134.40112pt.
 
-Overfull \hbox (62.12881pt too wide) in paragraph at lines 571--573
+Overfull \hbox (62.12881pt too wide) in paragraph at lines 604--606
  [][] 
  []
 
-<images/part3/euclidean_road_output.PNG, id=151, 698.61pt x 735.49782pt>
+<images/part3/euclidean_road_output.PNG, id=160, 698.61pt x 735.49782pt>
 File: images/part3/euclidean_road_output.PNG Graphic file (type png)
 <use images/part3/euclidean_road_output.PNG>
 Package pdftex.def Info: images/part3/euclidean_road_output.PNG  used on input 
-line 578.
+line 611.
 (pdftex.def)             Requested size: 150.56305pt x 158.51051pt.
-[20 <./images/part3/euclidean_coast.PNG> <./images/part3/euclidean_road_output.
+[21 <./images/part3/euclidean_coast.PNG> <./images/part3/euclidean_road_output.
 PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
-<images/part3/river_normalising.PNG, id=157, 586.44093pt x 319.1925pt>
+<images/part3/river_normalising.PNG, id=166, 586.44093pt x 319.1925pt>
 File: images/part3/river_normalising.PNG Graphic file (type png)
 <use images/part3/river_normalising.PNG>
 Package pdftex.def Info: images/part3/river_normalising.PNG  used on input line
- 600.
+ 633.
 (pdftex.def)             Requested size: 230.86334pt x 125.65347pt.
 
-Overfull \hbox (42.05374pt too wide) in paragraph at lines 600--602
+Overfull \hbox (42.05374pt too wide) in paragraph at lines 633--635
  [][] 
  []
 
-<images/part3/river_normalising_output.PNG, id=158, 645.91313pt x 722.7pt>
+<images/part3/river_normalising_output.PNG, id=167, 645.91313pt x 722.7pt>
 File: images/part3/river_normalising_output.PNG Graphic file (type png)
 <use images/part3/river_normalising_output.PNG>
 Package pdftex.def Info: images/part3/river_normalising_output.PNG  used on inp
-ut line 607.
+ut line 640.
 (pdftex.def)             Requested size: 180.67566pt x 202.15611pt.
-[21 <./images/part3/river_normalising.PNG> <./images/part3/river_normalising_ou
+[22 <./images/part3/river_normalising.PNG> <./images/part3/river_normalising_ou
 tput.PNG>]
-<images/part3/road_normalising.PNG, id=165, 828.09375pt x 429.605pt>
+<images/part3/road_normalising.PNG, id=174, 828.09375pt x 429.605pt>
 File: images/part3/road_normalising.PNG Graphic file (type png)
 <use images/part3/road_normalising.PNG>
 Package pdftex.def Info: images/part3/road_normalising.PNG  used on input line 
-620.
+653.
 (pdftex.def)             Requested size: 230.86334pt x 119.7707pt.
 
-Overfull \hbox (42.05374pt too wide) in paragraph at lines 620--622
+Overfull \hbox (42.05374pt too wide) in paragraph at lines 653--655
  [][] 
  []
 
-<images/part3/road_normalising_output.PNG, id=166, 660.96938pt x 725.71124pt>
+<images/part3/road_normalising_output.PNG, id=175, 660.96938pt x 725.71124pt>
 File: images/part3/road_normalising_output.PNG Graphic file (type png)
 <use images/part3/road_normalising_output.PNG>
 Package pdftex.def Info: images/part3/road_normalising_output.PNG  used on inpu
-t line 627.
+t line 660.
 (pdftex.def)             Requested size: 180.67566pt x 198.36974pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
 
  []
 
-<images/part3/slope_35degorless.PNG, id=167, 667.74469pt x 325.96782pt>
+<images/part3/slope_35degorless.PNG, id=176, 667.74469pt x 325.96782pt>
 File: images/part3/slope_35degorless.PNG Graphic file (type png)
 <use images/part3/slope_35degorless.PNG>
 Package pdftex.def Info: images/part3/slope_35degorless.PNG  used on input line
- 640.
+ 673.
 (pdftex.def)             Requested size: 230.86334pt x 112.69775pt.
-<images/part3/slope_35degorless_output.PNG, id=168, 612.03656pt x 727.21687pt>
+<images/part3/slope_35degorless_output.PNG, id=177, 612.03656pt x 727.21687pt>
 File: images/part3/slope_35degorless_output.PNG Graphic file (type png)
 <use images/part3/slope_35degorless_output.PNG>
 Package pdftex.def Info: images/part3/slope_35degorless_output.PNG  used on inp
-ut line 647.
+ut line 680.
 (pdftex.def)             Requested size: 150.56305pt x 178.8965pt.
-[22 <./images/part3/road_normalising.png> <./images/part3/road_normalising_outp
+[23 <./images/part3/road_normalising.png> <./images/part3/road_normalising_outp
 ut.PNG> <./images/part3/slope_35degorless.PNG> <./images/part3/slope_35degorles
 s_output.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 
  []
 
-<images/part3/dem_500morless.PNG, id=176, 435.12563pt x 318.43968pt>
+<images/part3/dem_500morless.PNG, id=185, 435.12563pt x 318.43968pt>
 File: images/part3/dem_500morless.PNG Graphic file (type png)
 <use images/part3/dem_500morless.PNG>
-Package pdftex.def Info: images/part3/dem_500morless.PNG  used on input line 65
-9.
+Package pdftex.def Info: images/part3/dem_500morless.PNG  used on input line 69
+2.
 (pdftex.def)             Requested size: 200.75073pt x 146.91647pt.
-<images/part3/dem_500morless_output.PNG, id=177, 673.76718pt x 749.04843pt>
+<images/part3/dem_500morless_output.PNG, id=186, 673.76718pt x 749.04843pt>
 File: images/part3/dem_500morless_output.PNG Graphic file (type png)
 <use images/part3/dem_500morless_output.PNG>
 Package pdftex.def Info: images/part3/dem_500morless_output.PNG  used on input 
-line 666.
+line 699.
 (pdftex.def)             Requested size: 150.56305pt x 167.38567pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--672
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--674
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
-<images/part3/finalmce_calc.PNG, id=178, 581.92406pt x 286.06876pt>
+<images/part3/finalmce_calc.PNG, id=187, 581.92406pt x 286.06876pt>
 File: images/part3/finalmce_calc.PNG Graphic file (type png)
 <use images/part3/finalmce_calc.PNG>
-Package pdftex.def Info: images/part3/finalmce_calc.PNG  used on input line 682
+Package pdftex.def Info: images/part3/finalmce_calc.PNG  used on input line 715
 .
 (pdftex.def)             Requested size: 230.86334pt x 113.48698pt.
-<images/part3/finalmce_output.PNG, id=179, 835.62187pt x 999.735pt>
+<images/part3/finalmce_output.PNG, id=188, 835.62187pt x 999.735pt>
 File: images/part3/finalmce_output.PNG Graphic file (type png)
 <use images/part3/finalmce_output.PNG>
-Package pdftex.def Info: images/part3/finalmce_output.PNG  used on input line 6
-89.
+Package pdftex.def Info: images/part3/finalmce_output.PNG  used on input line 7
+22.
 (pdftex.def)             Requested size: 130.48798pt x 156.11668pt.
-[23 <./images/part3/dem_500morless.PNG> <./images/part3/dem_500morless_output.P
+[24 <./images/part3/dem_500morless.PNG> <./images/part3/dem_500morless_output.P
 NG> <./images/part3/finalmce_calc.PNG> <./images/part3/finalmce_output.PNG>]
-<images/part3/final_criteria/criterion_coast.PNG, id=187, 593.96906pt x 718.183
+<images/part3/final_criteria/criterion_coast.PNG, id=196, 593.96906pt x 718.183
 12pt>
 File: images/part3/final_criteria/criterion_coast.PNG Graphic file (type png)
 <use images/part3/final_criteria/criterion_coast.PNG>
 Package pdftex.def Info: images/part3/final_criteria/criterion_coast.PNG  used 
-on input line 700.
+on input line 733.
 (pdftex.def)             Requested size: 140.52551pt x 169.91275pt.
-<images/part3/final_criteria/criterion_rain.PNG, id=188, 840.13875pt x 1004.251
+<images/part3/final_criteria/criterion_rain.PNG, id=197, 840.13875pt x 1004.251
 88pt>
 File: images/part3/final_criteria/criterion_rain.PNG Graphic file (type png)
 <use images/part3/final_criteria/criterion_rain.PNG>
 Package pdftex.def Info: images/part3/final_criteria/criterion_rain.PNG  used o
-n input line 706.
+n input line 739.
 (pdftex.def)             Requested size: 140.52551pt x 167.97763pt.
-<images/part3/final_criteria/criterion_rivers.PNG, id=189, 598.48593pt x 715.92
+<images/part3/final_criteria/criterion_rivers.PNG, id=198, 598.48593pt x 715.92
 468pt>
 File: images/part3/final_criteria/criterion_rivers.PNG Graphic file (type png)
 <use images/part3/final_criteria/criterion_rivers.PNG>
 Package pdftex.def Info: images/part3/final_criteria/criterion_rivers.PNG  used
- on input line 714.
+ on input line 747.
 (pdftex.def)             Requested size: 140.52551pt x 168.10031pt.
-<images/part3/final_criteria/criterion_roads.PNG, id=190, 596.98032pt x 718.183
+<images/part3/final_criteria/criterion_roads.PNG, id=199, 596.98032pt x 718.183
 12pt>
 File: images/part3/final_criteria/criterion_roads.PNG Graphic file (type png)
 <use images/part3/final_criteria/criterion_roads.PNG>
 Package pdftex.def Info: images/part3/final_criteria/criterion_roads.PNG  used 
-on input line 720.
+on input line 753.
 (pdftex.def)             Requested size: 140.52551pt x 169.05797pt.
-<images/part3/final_criteria/constraint_35deg.PNG, id=191, 602.25pt x 712.91344
+<images/part3/final_criteria/constraint_35deg.PNG, id=200, 602.25pt x 712.91344
 pt>
 File: images/part3/final_criteria/constraint_35deg.PNG Graphic file (type png)
 <use images/part3/final_criteria/constraint_35deg.PNG>
 Package pdftex.def Info: images/part3/final_criteria/constraint_35deg.PNG  used
- on input line 728.
+ on input line 761.
 (pdftex.def)             Requested size: 140.52551pt x 166.34895pt.
-<images/part3/final_criteria/constraint_500m.PNG, id=192, 596.98032pt x 715.924
+<images/part3/final_criteria/constraint_500m.PNG, id=201, 596.98032pt x 715.924
 68pt>
 File: images/part3/final_criteria/constraint_500m.PNG Graphic file (type png)
 <use images/part3/final_criteria/constraint_500m.PNG>
 Package pdftex.def Info: images/part3/final_criteria/constraint_500m.PNG  used 
-on input line 734.
+on input line 767.
 (pdftex.def)             Requested size: 140.52551pt x 168.52635pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./images/part3/final_criteria/criterion_coast.PNG> <./images/part3/final_c
+[25 <./images/part3/final_criteria/criterion_coast.PNG> <./images/part3/final_c
 riteria/criterion_rain.PNG> <./images/part3/final_criteria/criterion_rivers.PNG
 > <./images/part3/final_criteria/criterion_roads.PNG> <./images/part3/final_cri
 teria/constraint_35deg.PNG> <./images/part3/final_criteria/constraint_500m.PNG>
@@ -1249,30 +1274,30 @@ teria/constraint_35deg.PNG> <./images/part3/final_criteria/constraint_500m.PNG>
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/part3/sophie_part3.png, id=203, 845.3181pt x 597.6729pt>
+<images/part3/sophie_part3.png, id=213, 845.3181pt x 597.6729pt>
 File: images/part3/sophie_part3.png Graphic file (type png)
 <use images/part3/sophie_part3.png>
-Package pdftex.def Info: images/part3/sophie_part3.png  used on input line 742.
+Package pdftex.def Info: images/part3/sophie_part3.png  used on input line 775.
 
 (pdftex.def)             Requested size: 451.68915pt x 319.35513pt.
 
-Overfull \hbox (28.48451pt too wide) in paragraph at lines 742--744
+Overfull \hbox (28.48451pt too wide) in paragraph at lines 775--777
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 781--782
 
  []
 
-[25
+[26
 
  <./images/part3/sophie_part3.png (PNG copy)>] (./lessonplan.aux) ) 
 Here is how much of TeX's memory you used:
- 7450 strings out of 492615
- 111905 string characters out of 6131390
- 181958 words of memory out of 5000000
- 11188 multiletter control sequences out of 15000+600000
+ 7469 strings out of 492615
+ 112318 string characters out of 6131390
+ 181987 words of memory out of 5000000
+ 11203 multiletter control sequences out of 15000+600000
  12486 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,43p,1424b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1288,10 +1313,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfrm1000.pfb>
-Output written on lessonplan.pdf (25 pages, 21661976 bytes).
+Output written on lessonplan.pdf (26 pages, 21741245 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 254 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

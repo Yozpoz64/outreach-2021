@@ -2,17 +2,18 @@
 \contentsline {subsection}{\numberline {1.1}Introduction}{2}% 
 \contentsline {subsection}{\numberline {1.2}Target Audience}{2}% 
 \contentsline {subsection}{\numberline {1.3}Rote Lesson Objectives}{2}% 
-\contentsline {section}{\numberline {2}Part 1: Introduction to a GISystem and Cartography}{3}% 
-\contentsline {subsection}{\numberline {2.1}Preamble}{3}% 
-\contentsline {subsection}{\numberline {2.2}Data Overview}{3}% 
-\contentsline {subsection}{\numberline {2.3}Instructions}{3}% 
-\contentsline {subsection}{\numberline {2.4}FAQ/Common Mistakes}{8}% 
-\contentsline {section}{\numberline {3}Part 2: Vector Analysis}{9}% 
-\contentsline {subsection}{\numberline {3.1}Preamble}{9}% 
-\contentsline {subsection}{\numberline {3.2}Data Overview}{9}% 
-\contentsline {subsection}{\numberline {3.3}Instructions}{9}% 
-\contentsline {section}{\numberline {4}Part 3: Raster Analysis}{17}% 
-\contentsline {subsection}{\numberline {4.1}Preamble}{17}% 
-\contentsline {subsection}{\numberline {4.2}Data Overview}{17}% 
-\contentsline {subsection}{\numberline {4.3}Instructions}{18}% 
-\contentsline {section}{\numberline {5}Conclusion}{25}% 
+\contentsline {section}{\numberline {2}FAQ/Common Mistakes}{2}% 
+\contentsline {section}{\numberline {3}Basic Navigation Tips for Arcmap}{3}% 
+\contentsline {section}{\numberline {4}Part 1: Introduction to a GISystem and Cartography}{4}% 
+\contentsline {subsection}{\numberline {4.1}Preamble}{4}% 
+\contentsline {subsection}{\numberline {4.2}Data Overview}{4}% 
+\contentsline {subsection}{\numberline {4.3}Instructions}{4}% 
+\contentsline {section}{\numberline {5}Part 2: Vector Analysis}{9}% 
+\contentsline {subsection}{\numberline {5.1}Preamble}{9}% 
+\contentsline {subsection}{\numberline {5.2}Data Overview}{9}% 
+\contentsline {subsection}{\numberline {5.3}Instructions}{10}% 
+\contentsline {section}{\numberline {6}Part 3: Raster Analysis}{18}% 
+\contentsline {subsection}{\numberline {6.1}Preamble}{18}% 
+\contentsline {subsection}{\numberline {6.2}Data Overview}{18}% 
+\contentsline {subsection}{\numberline {6.3}Instructions}{19}% 
+\contentsline {section}{\numberline {7}Conclusion}{26}% 
