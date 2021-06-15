@@ -21,7 +21,7 @@
 
 \title{Lesson Planner}
 \author{GIS Outreach 2021}
-\date{Sophie Kolston}
+\date{Sophie Kolston (she/her)}
 
 \begin{document}
 
@@ -668,9 +668,9 @@ The other constraint to consider is the elevation cutoff. The Southland District
   \end{minipage}
 \end{figure}
 
-All of the geoprocessing for the layers included in the MCE calculation has been completed. We have normalised distance rasters for factors and boolean layers for constraints. A cool thing we can do in an MCE is assign weighting for each factor, meaning we can account for each factors relative importance in the MCE output. In our case, we can assign weightings based on how important a factor will be for increasing flood risk in an area. This would normally be provided by the stakeholder, but we can use whatever we like. I will assign 10\% to the distance to coasts (as we are primarily interested in floods, storm surge is not hugely influential), 20\% to rainfall, 40\% to roads (as lack of access is very important in extreme weather events), with the final 30\% to rivers. \\
+All of the geoprocessing for the layers included in the MCE calculation has been completed. We have normalised distance rasters for factors and boolean layers for constraints. A cool thing we can do in an MCE is assign weighting for each factor, meaning we can account for each factors relative importance in the MCE output. In our case, we can assign weightings based on how important a factor will be for increasing flood risk in an area. This would normally be provided by the stakeholder, but we can use whatever we like. I will assign 10\% to the distance to coasts (storm surge is not hugely influential), 20\% to rainfall, 40\% to roads (as access is very important in extreme weather events), with the final 30\% to rivers. \\
 
-With these weightings, we can build the MCE calculation in the Raster Calculator. Each factor must be multiplied by its weighting then added to one another. These combined factors can be multiplied by the constraints, then the output will be the final MCE raster. I have written out formula in Equation 2, with Figure \ref{3_finalmce_calc} showing this formula in the raster calculator and Figure \ref{3_finalmce_output} showing the output. \\
+With these weightings, we can build the MCE calculation in the Raster Calculator. Each factor must be multiplied by its weighting then added to one another. These combined factors can be multiplied by the constraints, then the output will be the final MCE raster. I have written out formula in Equation 2, with Figure \ref{3_finalmce_calc} showing this formula in the raster calculator and Figure \ref{3_finalmce_output} showing the output. The following page shows each of the criterion layers, followed by the final map.\\
 \begin{equation}
   (0.1*[coasts]+0.2*[rain]+0.4*[roads]+0.3*[rivers])*[elevation]*[slope]
 \end{equation}
@@ -692,15 +692,63 @@ With these weightings, we can build the MCE calculation in the Raster Calculator
 \end{figure}
 \pagebreak
 
-Here I will provide screenshots of all of the criterion layers before the MCE calculation, just to make sure you are on the right track. Figure \ref{3_final} is my final map. I have used multiple data frames to show the geographic area to the viewer more clearly. 
+\begin{figure}[h]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalised coastline distance raster}
+    \includegraphics[width=140px]{images/part3/final_criteria/criterion_coast.PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalised rainfall raster}
+    \includegraphics[width=140px]{images/part3/final_criteria/criterion_rain.PNG}
+  \end{minipage}
 
-\pagebreak
+  \vspace{1cm}
+
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalised major rivers distance raster}
+    \includegraphics[width=140px]{images/part3/final_criteria/criterion_rivers.PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Normalised road network distance raster}
+    \includegraphics[width=140px]{images/part3/final_criteria/criterion_roads.PNG}
+  \end{minipage}
+
+  \vspace{1cm}
+
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Boolean 35\textdegree{} slope constraint layer}
+    \includegraphics[width=140px]{images/part3/final_criteria/constraint_35deg.PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \centering
+    \caption{Boolean 500m elevation constraint layer}
+    \includegraphics[width=140px]{images/part3/final_criteria/constraint_500m.PNG}
+  \end{minipage}
+\end{figure}
+
+\newgeometry{}
 \begin{figure}
   \centering
   \caption{Lesson 3 Final Map}
   \fbox{\includegraphics[width=450px]{images/part3/sophie_part3.png}}
   \label{3_final}
 \end{figure}
+
+\vspace{3cm}
+\section{Conclusion}
+Thank you very much for reading! I hope that these lessons serve as a good foundation in GISystems and Science to teach students. Please do not hesitate to contact me for more information or issues with these lessons, I am more than happy to share and tips or tricks that I didn't include here. \\
+
+Thanks again, \\
+Sophie Kolston (she/her)
 
 
 
